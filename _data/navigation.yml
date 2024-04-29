@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
+    - title: "Features"
       section: services
     - title: "Portfolio"
       section: portfolio
@@ -19,8 +19,6 @@ en: &DEFAULT_EN
       section: about
     - title: "Timeline"
       section: timeline
-    - title: "Team"
-      section: team
     - title: "Contact"
       section: contact
     - title: "Theme Source"
