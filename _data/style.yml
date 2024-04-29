@@ -9,3 +9,5 @@ contact-image: "../img/map-image.png"
 highlight: "#E50914"  # Netflix red
 white: "#FFFFFF"       # White
 black: "#000000"       # Black
+font-family: "Arial, sans-serif"
+font-size: "16px"
