@@ -15,7 +15,7 @@ en: &DEFAULT_EN
     text: It's Nice To Meet You
     button: Tell Me More
     buttonlink: "#services"
-     about:
+  about:
     title: "About"
     body: "Welcome to my Algorithmic Problem Solving project, a part of my 6th-semester Computer Science engineering course at KLE Technological University,Hubballi. I'm Shreya Pai, and under the guidance of my APS course teacher Professor Prakash Hegade, I explore the application of algorithms and data structures in solving real-world challenges, with a focus on Netflix's streaming platform.Through this project, I aim to analyze and implement various algorithms and data structures to enhance Netflix's user experience and optimize its operations. By delving into the intricacies of Netflix's recommendation system, content delivery, and user interface, I seek to demonstrate how algorithmic problem-solving skills can be applied to address complex problems in the field of streaming services." 
   section: about
