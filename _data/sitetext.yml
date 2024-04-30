@@ -22,7 +22,7 @@ en: &DEFAULT_EN
     list:
       - title: "Personalized Recommendations"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        thumbs_up_icon: "<i class='fa-light fa-thumbs-up' style='color: #d81f26;'></i>"
+        icon: "<i class='fa-light fa-thumbs-up' style='color: #d81f26;'></i>"
 
       - title: "Responsive Design"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
