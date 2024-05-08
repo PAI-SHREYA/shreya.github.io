@@ -1,40 +1,22 @@
-
 en:
   header:
     title: Welcome to my Netflix Portfolio!
-    text:
-      - Name: Shreya Pai
-      - Course Name: Algorithmic Problem Solving
-      - Course Code: 23ECSE309
-      - Course Teacher: Prof. Prakash Hegade
+    text: "Name: Shreya Pai\nCourse Name: Algorithmic Problem Solving\nCourse Code: 23ECSE309\nCourse Teacher: Prof. Prakash Hegade"
     button: Tell Me More
     buttonlink: "#about"
   about:
     title: About
-    body: Welcome to my Algorithmic Problem Solving project, a part of my
-      6th-semester Computer Science engineering course at KLE Technological
-      University,Hubballi. I'm Shreya Pai, and under the guidance of my APS
-      course teacher Professor Prakash Hegade, I explore the application of
-      algorithms and data structures in solving real-world challenges, with a
-      focus on Netflix's streaming platform.Through this project, I aim to
-      analyze and implement various algorithms and data structures to enhance
-      Netflix's user experience and optimize its operations. By delving into the
-      intricacies of Netflix's recommendation system, content delivery, and user
-      interface, I seek to demonstrate how algorithmic problem-solving skills
-      can be applied to address complex problems in the field of streaming
-      services.
+    body: Welcome to my Algorithmic Problem Solving project, a part of my 6th-semester Computer Science engineering course at KLE Technological University,Hubballi. I'm Shreya Pai, and under the guidance of my APS course teacher Professor Prakash Hegade, I explore the application of algorithms and data structures in solving real-world challenges, with a focus on Netflix's streaming platform. Through this project, I aim to analyze and implement various algorithms and data structures to enhance Netflix's user experience and optimize its operations. By delving into the intricacies of Netflix's recommendation system, content delivery, and user interface, I seek to demonstrate how algorithmic problem-solving skills can be applied to address complex problems in the field of streaming services.
     section: about
   services:
     title: Features
     section: services
     list:
       - title: Personalized Recommendations
-        desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime
-          quam architecto quo inventore harum ex magni, dicta impedit.
+        desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
         icon: "<i class='fa-light fa-thumbs-up' style='color: #d81f26;'></i>"
       - title: Responsive Design
-        desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime
-          quam architecto quo inventore harum ex magni, dicta impedit.
+        desc: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
         icon: fas fa-laptop
       - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
         desc: Your description here, full **Markdown** support
