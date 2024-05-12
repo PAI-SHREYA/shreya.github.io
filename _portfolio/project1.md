@@ -1,6 +1,6 @@
 ---
 title: Assignment Problem
-image: assets/img/portfolio/02-full.jpg
+image: assets/img/portfolio/01-full.png
 alt: Keep Exploring
 
 caption:
