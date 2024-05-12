@@ -1,7 +1,7 @@
 ---
 title: Assignment Problem
 subtitle: subtitle lorem ipsum dolor sit amet consectetur.
-image: [assets/img/portfolio/01-full.jpg](https://miro.medium.com/v2/resize:fit:489/1*IA58_qRpb9Dm8GfBkPr8hg.png)
+image:https://miro.medium.com/v2/resize:fit:489/1*IA58_qRpb9Dm8GfBkPr8hg.png
 
 
 caption:
