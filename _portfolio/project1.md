@@ -1,13 +1,16 @@
 ---
 title: Assignment Problem
-image:https:assets/img/portfolio/01-thumbnail.jpg
-
+image: assets/img/portfolio/02-full.jpg
+alt: Keep Exploring
 
 caption:
-  title: Threads
-  subtitle: Illustration
-  thumbnail: assets/img/portfolio/01-thumbnail.jpg
+  title: Explore
+  subtitle: Graphic Design
+  thumbnail: assets/img/portfolio/02-thumbnail.jpg
 ---
-Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
 
-
+{:.list-inline}
+- Date: January 2017
+- Client: Explore
+- Category: Graphic Design
