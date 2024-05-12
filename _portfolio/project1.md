@@ -1,8 +1,8 @@
 ---
-title: Project Threads
+title: Assignment Problem
 subtitle: subtitle lorem ipsum dolor sit amet consectetur.
 image: assets/img/portfolio/01-full.jpg
-alt: Shirts on a hanger
+
 
 caption:
   title: Threads
