@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: Welcome to My Netflix Portfolio!
-    text: It's Nice To Meet You
+    text:Name: Shreya Pai\nCourse Name: Algorithmic Problem Solving\nCourse Code: 23ECSE309\nCourse Teacher: Prof. Prakash Hegade
     button: Tell Me More
     buttonlink: "#services"
 
