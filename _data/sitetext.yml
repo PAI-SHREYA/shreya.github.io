@@ -12,7 +12,14 @@
 en: &DEFAULT_EN
   header:
     title: "Welcome to my Netflix Portfolio!"
-    text: "Name: Shreya Pai\n Course  Name: Algorithmic Problem Solving Course Code: 23ECSE309 Course Teacher: Prof. Prakash Hegade"
+    # text: "Name: Shreya Pai\n Course  Name: Algorithmic Problem Solving Course Code: 23ECSE309 Course Teacher: Prof. Prakash Hegade"
+    text: |
+      <span style="font-size: 18px; font-family: Arial, sans-serif; font-weight: bold; color: #333;">
+        Name: Shreya Pai<br>
+        Course Name: Algorithmic Problem Solving<br>
+        Course Code: 23ECSE309<br>
+        Course Teacher: Prof. Prakash Hegade
+      </span>
     button: "Tell Me More"
     buttonlink: "#about"
 
