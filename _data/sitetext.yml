@@ -14,7 +14,7 @@ en: &DEFAULT_EN
     title: "Welcome to my Netflix Portfolio!"
     # text: "Name: Shreya Pai\n Course  Name: Algorithmic Problem Solving Course Code: 23ECSE309 Course Teacher: Prof. Prakash Hegade"
     text: |
-      <span style="font-size: 18px; font-family: Arial, sans-serif; font-weight: bold; color: #333;">
+      <span style="font-size: 18px; font-family: Arial, sans-serif; font-weight: bold; color: #EF0914;">
         Name: Shreya Pai<br>
         Course Name: Algorithmic Problem Solving<br>
         Course Code: 23ECSE309<br>
