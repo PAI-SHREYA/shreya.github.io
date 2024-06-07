@@ -33,7 +33,6 @@ en: &DEFAULT_EN
     section: "services"
     list:
       - title: "Content Recommendation"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: "https://img.icons8.com/ios-filled/50/000000/idea.png" #find more at https://fontawesome.com/icons
       - title: "Content Delivery"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
