@@ -1,0 +1,8 @@
+<!-- In _includes/head.html -->
+<audio id="tudum-sound" src="{{ 'assets/sounds/tudum.mp3' | relative_url }}" preload="auto"></audio>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var audio = document.getElementById('tudum-sound');
+    audio.play();
+  });
+</script>
