@@ -23,7 +23,8 @@ en: &DEFAULT_EN
     section: "services"
     list:
       - title: "Content Recommendation"
-        icon: "<i class='fa-solid fa-magnifying-glass'></i>" # Use the Font Awesome icon
+        icon: "fas fa-magic-sparkle" # Use the Font Awesome icon
+        desc: "Top picks just for you."
       - title: "Content Delivery"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
         icon: "fas fa-laptop"
