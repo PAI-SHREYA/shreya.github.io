@@ -31,7 +31,12 @@ analytics:
   google: #Google Analytics tracking code here
 
 collections:
+  about:
+    output: true
+  services:
+    output: true
   portfolio:
+    output: true
 
 markdown: kramdown
 
@@ -41,3 +46,9 @@ markdown: kramdown
 
 plugins:
   - jekyll-remote-theme
+
+# Navigation order
+nav_order:
+  - about
+  - services
+  - portfolio
