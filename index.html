@@ -1,0 +1,4 @@
+{% assign ordered_sections = site.nav_order %}
+{% for section in ordered_sections %}
+  {% include section.html %}
+{% endfor %}
