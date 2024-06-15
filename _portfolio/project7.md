@@ -21,5 +21,5 @@ The Sliding Window Algorithm is highly effective for real-time data streams, whe
 Segment Trees, Fenwick Trees, and the Sliding Window Algorithm offer distinct advantages and trade-offs. Segment Trees is suitable for dynamic updates and efficient range queries, albeit with memory and scalability considerations. The Sliding Window Algorithm excels in real-time monitoring but is limited by its fixed interval nature. Choosing the appropriate algorithm depends on the specific requirements of real-time performance, memory efficiency, and the ability to handle distributed data processing.
 
 **Code**
-Sliding Window: ![]
+Sliding Window: [Link]https://github.com/PAI-SHREYA/DSA/blob/main/Trees/03_Minimum_Segment.cpp
 
