@@ -6,7 +6,7 @@ alt: Keep Exploring
 
 caption:
   title: Content Recommendation
-  thumbnail: assets/img/portfolio/01-thubnail.jpg
+  thumbnail: assets/img/portfolio/Netflix-Recommendation-Engine-Working-StartupTalky.jpg
 ---
 Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
 
