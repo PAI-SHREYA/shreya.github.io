@@ -10,6 +10,11 @@ caption:
   thumbnail: assets/img/portfolio/Tiny-PNG-The_Secret_Game_Changer_Social_Media_Customer_Engagement_.png
 ---
 
+**Performance Analysis**
+The LCS algorithm has a time complexity of O(m×n) where m and 𝑛 are the lengths of the two sequences being compared. This quadratic time complexity can be computationally expensive for very large datasets, which is common in Netflix’s usage scenarios. However, various optimizations and parallel processing techniques can be employed to mitigate this. The space complexity is  O(m×n) due to the need to store the 2D array for dynamic programming. For large sequences, this space requirement can also be significant, but techniques such as space-efficient dynamic programming can reduce this to O(min(m,n)).
+
+
+
 
 
 
