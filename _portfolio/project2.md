@@ -6,7 +6,6 @@ alt: Keep Exploring
 
 caption:
   title: Maintaining User Engagement 
-  subtitle: Longest Common Subsequence
   thumbnail: assets/img/portfolio/Tiny-PNG-The_Secret_Game_Changer_Social_Media_Customer_Engagement_.png
 ---
 
