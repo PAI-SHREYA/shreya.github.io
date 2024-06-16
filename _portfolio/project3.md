@@ -27,11 +27,24 @@ Segment Trees are efficient for range queries and updates, which can be useful i
 
 Shortcomings and Scalability Issues:
 The main limitation of Segment Trees is their space complexity, which is O(n). For a large number of content items, the memory overhead can become significant. Additionally, maintaining Segment Trees in a distributed system can be challenging due to the need for synchronization across different nodes.
+3.Radix Tree
+Implementing a Radix Tree for content categorization and tagging at Netflix involves creating a space-optimized data structure to efficiently manage and query a vast number of tags and categories. Each node in the Radix Tree represents a common prefix of multiple tags, collapsing paths with single children to save space. For example, consider tags like "action," "action-packed," "comedy," and "comedy-drama." In a Radix Tree, a single node might represent the common prefix "action," branching into "packed" and ending at a terminal node for "action." Similarly, "comedy" would branch into "drama" after the common prefix. When a user searches for tags, the tree is traversed from the root, following the characters of the query, quickly narrowing down to the relevant node. Inserting new tags involves traversing the tree to find the common prefix, then adding new nodes as necessary, merging where single child paths occur. This ensures that searches, insertions, and deletions are performed efficiently, with each operation requiring time proportional to the length of the tag. For instance, adding a new tag like "action-adventure" would involve identifying the "action" prefix, then creating a new branch for "adventure." By storing tags in this manner, Netflix can quickly retrieve and manage tags, enhancing the user experience by providing fast, relevant search results and recommendations, all while maintaining a memory-efficient structure.
 
 Codes:
-Here is my code for :
+Here is code for :
 1. [Longest Common Subsequence](https://github.com/PAI-SHREYA/DSA/blob/main/Dynamic%20Programming/01_LargestCommonSubsequence.cpp)
    Time Complexity:  O(n * m)
    Space Complexity: O(m)
    where n=length of first string and m=length of second string.
 
+2.[Segment Tree](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/03_Minimum_Segment.cpp)
+Time Complexity:
+For tree construction : O(n)
+For query: O(longn)
+Space Complextity : O(4*n) ~ O(n)
+
+3.[Radix Tree](https://github.com/ssbl/radix-tree/blob/master/radix_tree.cpp)
+Time Complexity:  
+For insertion, deletion and search: O(l) l is length of the tag.
+Space Complexity:
+O(n*l) where n is number of strings and l is average length of the strings.
