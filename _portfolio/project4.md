@@ -1,17 +1,12 @@
 ---
 title: Fraud Detection in User Accounts
-subtitle: Lorem ipsum dolor sit amet consectetur.
+subtitle: Detecting fraudulent activity in user accounts is vital for maintaining the integrity and trust of the Netflix platform. Fraudulent activities can include account takeovers, fraudulent subscriptions and abuse of free trials.
 image: assets/img/portfolio/04-full.jpg
 alt: 
 
 caption:
   title: Fraud Detection in User Accounts
-  thumbnail: assets/img/portfolio/04-thumbnail.jpg
+  thumbnail: assets/img/portfolio/vDksJyGDifLwmrfasXFGs3IBoOrfoDUX5ACJ2eVc.jpg
 ---
-Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
-
-{:.list-inline}
-- Date: October 2019
-- Client: Lines
-- Category: Branding
-
+**Challenges and Market Benefits**
+The primary challenge in fraud detection is distinguishing between legitimate user behavior and fraudulent activities amidst large number of concurrent users. Additionally, real-time detection is crucial for preventing ongoing fraud. Effective fraud detection not only protects user accounts but also ensures trust in the platform, leading to increased user satisfaction and loyalty. By minimizing fraudulent activities, Netflix can also save on potential financial losses and maintain a secure user base.
