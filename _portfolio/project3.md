@@ -5,7 +5,7 @@ image: assets/img/portfolio/03-full.jpg
 alt: 
 
 caption:
-  title: Finish
+  title: Content Categorization and Tagging
   subtitle: Identity
   thumbnail: assets/img/portfolio/03-thumbnail.jpg
 ---
