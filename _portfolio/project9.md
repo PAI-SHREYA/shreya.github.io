@@ -6,7 +6,7 @@ alt: Keep Exploring
 
 caption:
   title: Load Balancing Across Servers
-  thumbnail: assets/img/portfolio/Tiny-PNG-The_Secret_Game_Changer_Social_Media_Customer_Engagement_.png
+  thumbnail: assets/img/portfolio/GSLB-003.png
 ---
 
 **Performance Analysis**
