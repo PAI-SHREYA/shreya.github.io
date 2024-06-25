@@ -1,11 +1,11 @@
 ---
-title: Content Recommendation
+title: Scheduling and Sequencing of Ad Placements
 subtitle: Netflix’s content recommendation system is designed to personalize the viewing experience by suggesting movies and shows that align with individual user preferences. This system analyzes viewing history, search queries, and user ratings to identify patterns and predict what content a user is likely to enjoy. The goal is to increase user engagement by making it easier for users to find content they love.
 image: assets/img/portfolio/01-full.jpg
 alt: Keep Exploring
 
 caption:
-  title: Content Recommendation
+  title: Scheduling and Sequencing of Ad Placements
   thumbnail: assets/img/portfolio/Subtitle Synchronization.png
 ---
 **Challenges and Market Benefits**
