@@ -19,4 +19,3 @@ For a platform like Netflix, which has millions of users and content items, upda
 
 Instead, a more suitable algorithm might be Multidimensional Segment Trees or kd-trees, which can handle multi-dimensional data and perform efficient range queries. 
 
-<img src="assets/img/portfolio/Subtitle Synchronization.png" alt="Subtitle Synchronization" style="height:150px;width:150px;">
