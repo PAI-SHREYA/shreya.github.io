@@ -1,11 +1,11 @@
 ---
-title: Fraud Detection in User Accounts
+title: Optimizing Content Delivery Networks (CDNs)
 subtitle: Detecting fraudulent activity in user accounts is vital for maintaining the integrity and trust of the Netflix platform. Fraudulent activities can include account takeovers, fraudulent subscriptions and abuse of free trials.
 image: assets/img/portfolio/04-full.jpg
 alt: 
 
 caption:
-  title: Fraud Detection in User Accounts
+  title: Optimizing Content Delivery Networks (CDNs)
   thumbnail: assets/img/portfolio/vDksJyGDifLwmrfasXFGs3IBoOrfoDUX5ACJ2eVc.jpg
 ---
 **Challenges and Market Benefits**
