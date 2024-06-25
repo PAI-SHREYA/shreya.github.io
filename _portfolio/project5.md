@@ -5,7 +5,7 @@ image: assets/img/portfolio/04-full.jpg
 alt: 
 
 caption:
-  title: Optimizing Content Delivery Networks (CDNs)
+  title: Optimizing Content Delivery Networks
   thumbnail: assets/img/portfolio/Guide-to-CDN-1024x558.jpg
 ---
 **Challenges and Market Benefits**
