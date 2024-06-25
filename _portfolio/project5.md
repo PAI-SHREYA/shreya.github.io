@@ -1,11 +1,11 @@
 ---
-title: Project Name
+title:Optimizing Content Delivery Networks (CDNs)
 subtitle: Lorem ipsum dolor sit amet consectetur.
 image: assets/img/portfolio/05-full.jpg
 alt: 
 
 caption:
-  title: Southwest
+  title: Optimizing Content Delivery Networks (CDNs)
   subtitle: Website Design
   thumbnail: assets/img/portfolio/05-thumbnail.jpg
 ---
