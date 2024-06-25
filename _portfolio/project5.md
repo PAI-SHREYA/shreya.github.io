@@ -6,7 +6,7 @@ alt:
 
 caption:
   title: Optimizing Content Delivery Networks (CDNs)
-  thumbnail: assets/img/portfolio/vDksJyGDifLwmrfasXFGs3IBoOrfoDUX5ACJ2eVc.jpg
+  thumbnail: assets/img/portfolio/Guide-to-CDN-1024x558.jpg
 ---
 **Challenges and Market Benefits**
 The primary challenge in fraud detection is distinguishing between legitimate user behavior and fraudulent activities amidst large number of concurrent users. Additionally, real-time detection is crucial for preventing ongoing fraud. Effective fraud detection not only protects user accounts but also ensures trust in the platform, leading to increased user satisfaction and loyalty. By minimizing fraudulent activities, Netflix can also save on potential financial losses and maintain a secure user base.
