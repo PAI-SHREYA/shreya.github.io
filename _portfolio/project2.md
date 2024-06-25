@@ -17,6 +17,8 @@ As the dataset grows, the performance of the LCS algorithm degrades significantl
 
 **Optimization Techniques**
 
+<img src="assets/img/portfolio/Tiny-PNG-The_Secret_Game_Changer_Social_Media_Customer_Engagement_.png" alt="Subtitle Synchronization" style="height:150px;width:150px;">
+
 
 
 
