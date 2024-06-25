@@ -19,7 +19,7 @@ The structure of BITs makes them less efficient for range queries on multiple at
 
 Instead, a more suitable algorithm might be Multidimensional Segment Trees or kd-trees, which can handle multi-dimensional data and perform efficient range queries.
 
-<img src="assets/img/portfolio/Netflix-Recommendation-Engine-Working-StartupTalky.jpg" alt="Subtitle Synchronization" style="height:150px;width:150px;">
+
 
 
 
