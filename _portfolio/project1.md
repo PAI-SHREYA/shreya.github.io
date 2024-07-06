@@ -44,8 +44,10 @@ Nearest neighbors are found based on the Euclidean distance in the k-dimensional
 Content items closest to the user point are recommended.
 Similar users are identified, and their viewing preferences are used to generate additional recommendations.
 
+_**KD Tree Design**_
 <img src="assets/img/inside/1/kd_tree_design.png" alt="KD-Tree Design">
-<img src="assets/img/inside/1/rec_sys.jpeg" alt="System Architecture">
+_**System Architecture**_
+<img src="assets/img/inside/1/rec_sys.jpeg" alt="System Architecture" width="500">
     
 |Data Structure/Algorithm|Time Complexity|Space Complexity|Code Link|
 |------------------------|---------------|----------------|----------|
