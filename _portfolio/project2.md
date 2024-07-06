@@ -30,6 +30,42 @@ This method can be used to detect connected components in user behavior data.Uni
 
 
 **Complexity Analysis and Codes**
+- _**Kadanes's Algorithm**_:
+  
+  Construction: O(n log n) 
+  
+  Update (Point Update): O(log n) 
+  
+  Query (Prefix Sum): O(log n)
+  
+  Space Complexity: O(n)
+  
+  [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/FenwickTree.cpp)
+  
+- _**DFS**_:
+  
+  Access, search, insertion, and deletion: O(log n),where n is the number of data points.
+  
+  Space complexity: O(n)
+  
+  [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/KD_Tree.cpp)
+
+  - _**BFS**_:
+  
+  Access, search, insertion, and deletion: O(log n),where n is the number of data points.
+  
+  Space complexity: O(n)
+  
+  [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/KD_Tree.cpp)
+
+
+  - _**Union Find**_:
+  
+  Access, search, insertion, and deletion: O(log n),where n is the number of data points.
+  
+  Space complexity: O(n)
+  
+  [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/KD_Tree.cpp)
 
 
 
