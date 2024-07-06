@@ -1,8 +1,7 @@
 ---
 title: Subtitle Synchronization
 subtitle: Subtitle synchronization involves aligning the timing of subtitle text with the corresponding audio and visual cues in the content. This ensures that subtitles appear at the right moment, matching the dialogue and visual context. Accurate subtitle synchronization is important for providing an immersive viewing experience, especially for non-native speakers, the hearing impaired and users watching content in noisy environments.
-image: assets/img/portfolio/01-full.jpg
-alt: Keep Exploring
+
 
 caption:
   title:  Subtitle Synchronization
