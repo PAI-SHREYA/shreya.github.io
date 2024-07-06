@@ -21,10 +21,6 @@ en: &DEFAULT_EN
   services:
     title: "About Netflix and it's Market Analysis"
     
- 
-
-    
-
   portfolio:
     title: "Portfolio"
     # text: "Lorem ipsum dolor sit amet consectetur."
