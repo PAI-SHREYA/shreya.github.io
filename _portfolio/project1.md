@@ -50,7 +50,8 @@ _**System Architecture**_
 <img src="assets/img/inside/1/rec_sys.jpeg" alt="System Architecture" width="500">
     
 **Complexity Analysis and Codes**
-- Binary Indexed / Fenwick Tree:|
+- Binary Indexed / Fenwick Tree:
+  text: |
    Construction: ( O(n log n) )
    Update (Point Update): ( O(log n) )
    Query (Prefix Sum): ( O(log n) )
