@@ -15,15 +15,44 @@ en: &DEFAULT_EN
 
   about:
     title: "About"
-    body: "Welcome to my Algorithmic Problem Solving project, a part of my 6th-semester Computer Science engineering course at KLE Technological University, Hubballi. I'm Shreya Pai, and under the guidance of my APS course teacher Professor Prakash Hegade, I explore the application of algorithms and data structures in solving real-world challenges, with a focus on Netflix's streaming platform. Through this project, I aim to analyze and implement various algorithms and data structures to improve Netflix's user experience and optimize its operations. By delving into the intricacies of Netflix's recommendation system, content delivery, and user interface, I seek to demonstrate how algorithmic problem-solving skills can be applied to address complex problems in the field of streaming services."
+    body: "Welcome to my Algorithmic Problem Solving project, a part of my 6th-semester Computer Science engineering course at KLE Technological University, Hubballi. I'm Shreya Pai, and under the guidance of my APS course teacher Professor Prakash Hegade, I explore the application of algorithms and data structures in solving real-world challenges, with a focus on Netflix's streaming platform. Through this project, I aim to analyze and implement various algorithms and data structures to enhance Netflix's user experience and optimize its operations. By delving into the intricacies of Netflix's recommendation system, content delivery, and user interface, I seek to demonstrate how algorithmic problem-solving skills can be applied to address complex problems in the field of streaming services."
     section: "about"
 
   services:
-    title: "About Netflix and it's Market Analysis"
-    
+    title: "Services"
+    section: "services"
+    list:
+      - title: "Content Recommendation"
+        icon: "fas fa-magic-sparkle" # Use the Font Awesome icon
+        desc: "Top picks just for you."
+      - title: "Content Delivery"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: "fas fa-laptop"
+      - title: "Content Categorization and Tagging"
+        desc: "Find your favourites faster."
+        icon: "fas fa-tags"
+      - title: "Dynamic Streaming Quality Adjustment"
+        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+        icon: "fas fa-video"
+      - title: "Search and Filter"
+        desc: "Your description here, full **Markdown** support"
+        icon: "fas fa-search"
+      - title: "Real-time Analytics"
+        desc: "Insights as you watch."
+        icon: "fas fa-chart-line"
+      - title: "Parental Controls"
+        desc: "Your description here, full **Markdown** support"
+        icon: "fas fa-user-shield"
+      - title: "Offline Viewing"
+        desc: "Watch anywhere, anytime."
+        icon: "fas fa-download"
+      - title: "Multiple User Support"
+        desc: "Profiles for everyone"
+        icon: "fas fa-users"
+
   portfolio:
     title: "Portfolio"
-    # text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Lorem ipsum dolor sit amet consectetur."
     section: "portfolio"
     closebutton: "Close Project"
 
@@ -37,4 +66,11 @@ en: &DEFAULT_EN
       - url: "https://instagram.com"
         icon: "fab fa-instagram"
 
-
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
