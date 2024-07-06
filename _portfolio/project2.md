@@ -18,6 +18,14 @@ However,Kadane's Algorithm is limited to finding the maximum sum in a one-dimens
 
 **_2.DFS and BFS:_**
 DFS and BFS can be used to analyze user interactions to detect patterns, preferences, and potential issues by traversing user interaction graphs.DFS can be used to explore user interaction sequences , identifying binge-watching patterns. DFS can reveal if a user consistently watches multiple episodes of a series in one sitting, highlighting binge-watching behavior.BFS can be used to analyze user behavior at each level, tracking how users discover new content and interact with the platform.
+The below image gives a basic implementation and graph traversal.
+<img src="assets/img/inside/2_traversal.png" alt="KDFSGraph">
+**_Inferences_:**
+-Nodes represent Netflix content and users, edges represent interactions with weights indicating intensity.
+-Based on the graph visualization and interaction weights, "Stranger Things" (M1) and "Money Heist" (M3) appear to be popular among users (User1 and User3 respectively), as they have higher interaction weights (watching and likes).
+-The DFS and BFS traversal results show the sequence of interactions and exploration paths starting from User1, revealing how users may discover new content or engage with related items based on their initial interactions.
+
+
 
 2. Union-Find Basic and Root Method:
 Application: Detecting connected components in user behavior data.
