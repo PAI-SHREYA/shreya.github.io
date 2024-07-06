@@ -11,17 +11,14 @@ caption:
 **Challenges and Market Benefits:**
 
 **Design Technique:**
-**_Kadane's Algorithm_**:Kadane's Algorithm is used to find the maximum sum subarray within a one-dimensional array of numbers. In this case, this can be used to find the period of maximum user engagement by analyzing time-series data of user interactions, such as views or likes.Let's consider a scenario where we want to analyze user activity to identify binge-watching patterns and detect the longest streaks of continuous viewing activity by each user.
+**_1.Kadane's Algorithm_**:Kadane's Algorithm is used to find the maximum sum subarray within a one-dimensional array of numbers. In this case, this can be used to find the period of maximum user engagement by analyzing time-series data of user interactions, such as views or likes.Let's consider a scenario where we want to analyze user activity to identify binge-watching patterns and detect the longest streaks of continuous viewing activity by each user.
 In the below graph,Kadane's algorithm is implemented to find the maximum sum of a contiguous subarray within a user's viewing activity data. It iterates through the array, maintaining two variables: max_ending_here (current subarray sum) and max_so_far (maximum sum found so far). By updating these variables dynamically, Kadane's algorithm identifies the longest streak of continuous viewing activity.
+<img src="assets/img/inside/2_graph.png" alt="Kadane Graph">
+However,Kadane's Algorithm is limited to finding the maximum sum in a one-dimensional array and does not directly support complex queries or dynamic updates. It is best suited for scenarios where the primary goal is to identify peak engagement periods in a straightforward manner. 
 
-Scenario: Analyzing user interactions to detect patterns, preferences, and potential issues.
+**_2.DFS and BFS:_**
+DFS and BFS can be used to analyze user interactions to detect patterns, preferences, and potential issues by traversing user interaction graphs.DFS can be used to explore user interaction sequences , identifying binge-watching patterns. DFS can reveal if a user consistently watches multiple episodes of a series in one sitting, highlighting binge-watching behavior.BFS can be used to analyze user behavior at each level, tracking how users discover new content and interact with the platform.
 
-Algorithms Involved:
-
-1. DFS and BFS:
-
-Application: Traversing user interaction graphs.
-Explanation: DFS can be used to explore user interaction sequences deeply, identifying binge-watching patterns. BFS can be used to analyze user behavior at each level, tracking how users discover new content and interact with the platform.
 2. Union-Find Basic and Root Method:
 Application: Detecting connected components in user behavior data.
 Explanation: Use Union-Find to identify clusters of users with similar behaviors, enabling personalized marketing strategies. The root method helps in quickly finding and merging these clusters, ensuring efficient user segmentation.
