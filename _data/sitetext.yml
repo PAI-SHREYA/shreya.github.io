@@ -3,6 +3,7 @@
 en: &DEFAULT_EN
   header:
     title: "Welcome to my Netflix Portfolio!"
+    text: Netflix, founded in 1997, has evolved from a DVD rental service to the world's leading streaming entertainment service. With over 230 million paid memberships in more than 190 countries, Netflix offers a vast library of TV series, documentaries, and feature films across various genres and languages. The platform's success is driven by its sophisticated use of data structures, algorithms, and cutting-edge technologies to deliver a seamless and personalized user experience.
     text: |
       <span style="font-size: 18px; font-family: Arial, sans-serif; font-weight: bold;">
         <span style="color: red;">Name:</span> <span style="color: white;">Shreya Pai</span><br>
