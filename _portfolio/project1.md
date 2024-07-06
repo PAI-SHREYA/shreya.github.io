@@ -49,7 +49,10 @@ images:
     alt: KD-Tree Design
   - src: assets/img/inside/1/rec_sys.jpeg
     alt: System Architecture
-
+    
+|Data Structure/Algorithm|Time Complexity|Space Complexity|Code Link|
+|------------------------|---------------|----------------|----------|
+|Binary Indexed Tree/Fenwick Tree|O(log n)|O(n log n)|[Code]([https://github.com/PAI-SHREYA/DSA/blob/main/Trees/03_Minimum_Segment.cpp](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/FenwickTree.cpp))|
 
 
 
