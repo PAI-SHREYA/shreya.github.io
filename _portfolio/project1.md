@@ -49,20 +49,20 @@ _**KD Tree Design**_
 _**System Architecture**_
 <img src="assets/img/inside/1/rec_sys.jpeg" alt="System Architecture" width="500">
     
-<table>
-  <tr>
-    <th>Data Structure/Algorithm</th>
-    <th>Time Complexity</th>
-    <th>Space Complexity</th>
-    <th>Code Link</th>
-  </tr>
-  <tr>
-    <td>Binary Indexed Tree/Fenwick Tree</td>
-    <td>O(log n)</td>
-    <td>O(n log n)</td>
-    <td><a href="https://github.com/PAI-SHREYA/DSA/blob/main/Trees/FenwickTree.cpp">Code</a></td>
-  </tr>
-</table>
+**Complexity Analysis and Codes**
+- Binary Indexed / Fenwick Tree:
+   Construction: ( O(n log n) )
+   Update (Point Update): ( O(log n) )
+   Query (Prefix Sum): ( O(log n) )
+   Space Complexity: ( O(n) )
+   Code [(https://github.com/PAI-SHREYA/DSA/blob/main/Trees/FenwickTree.cpp)]
+- KD-Tree
+   The time complexity of access, search, insertion, and deletion in a KD Tree is **O(log n)**, where n is the number of data points. This is because the tree is constructed in a top-down fashion and the data points are assigned to nodes in a recursive manner. Thus, the time complexity is proportional to the length of the tree, which is proportional to the logarithm of the number of data points.
+
+The average time complexity for search, insertion, and deletion is **O(log n)**. This is because the data points are organized in a way that allows for efficient searching, insertion, and deletion. The worst-case time complexity is O(n), which occurs when all of the data points are located at the same level of the tree.
+
+The space complexity of a KD Tree is O(n), where n is the number of data points. This is because each node of the tree holds a single data point. Thus, the space complexity is proportional to the number of data points.
+Code [(https://github.com/PAI-SHREYA/DSA/blob/main/Trees/KD_Tree.cpp)]
 
 
 
