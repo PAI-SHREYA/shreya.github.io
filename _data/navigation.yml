@@ -11,9 +11,9 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "About"
+    - title: "About Portfolio"
       section: about
-    - title: "Features"
+    - title: "About Netflix"
       section: services
     - title: "Portfolio"
       section: portfolio
