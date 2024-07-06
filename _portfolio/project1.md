@@ -52,15 +52,15 @@ _**System Architecture**_
 **Complexity Analysis and Codes**
 - _**Binary Indexed / Fenwick Tree**_:
   
-  Construction: ( O(n log n) )
+  Construction: O(n log n) 
   
-  Update (Point Update): ( O(log n) )
+  Update (Point Update): O(log n) 
   
-  Query (Prefix Sum): ( O(log n) )
+  Query (Prefix Sum): O(log n)
   
-  Space Complexity: ( O(n) )
+  Space Complexity: O(n)
   
-  [Code] (https://github.com/PAI-SHREYA/DSA/blob/main/Trees/FenwickTree.cpp)
+  [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/FenwickTree.cpp)
   
 - _**KD-Tree**_:
   
@@ -68,7 +68,7 @@ _**System Architecture**_
   
   Space complexity: O(n)
   
-  [Code] (https://github.com/PAI-SHREYA/DSA/blob/main/Trees/KD_Tree.cpp)
+  [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/KD_Tree.cpp)
 
 
 
