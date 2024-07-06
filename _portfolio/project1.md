@@ -1,7 +1,7 @@
 ---
 title: Content Recommendation
 subtitle: Netflix’s content recommendation system is designed to personalize the viewing experience by suggesting movies and shows that align with individual user preferences. This system analyzes viewing history, search queries, and user ratings to identify patterns and predict what content a user is likely to enjoy. The goal is to increase user engagement by making it easier for users to find content they love.
-image: assets/img/inside/1/IEEE TKDE 2020_1.png
+image: assets/img/inside/IEEE TKDE 2020_1.png
 alt: Keep Exploring
 
 caption:
