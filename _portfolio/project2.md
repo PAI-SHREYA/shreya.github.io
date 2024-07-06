@@ -1,6 +1,6 @@
 ---
 title: User Activity Analysis
-subtitle: With the increasing amount of content and diverse user preferences, efficient and accurate algorithms are crucial for maintaining user engagement. One of the fundamental challenges in recommendation systems is to identify common patterns in user behaviors and content characteristics. The Longest Common Subsequence (LCS) algorithm can play a significant role in this domain by identifying the longest sequence that is common in different user interaction histories, thus allowing Netflix to better understand user preferences and improve recommendations.
+subtitle: Netflix aims to improve its user experience by analyzing real-time user engagement metrics such as the number of views, churn rates, or total watch time over specific periods. By monitoring these metrics, Netflix identifys trends that help in content acquisition and production decisions. 
 image: assets/img/portfolio/02-full.jpg
 alt: Keep Exploring
 
@@ -8,8 +8,12 @@ caption:
   title: User Activity Analysis
   thumbnail: assets/img/portfolio/Tiny-PNG-The_Secret_Game_Changer_Social_Media_Customer_Engagement_.png
 ---
+**Challenges and Market Benefits:**
 
-Use Case 3: User Activity Analysis
+**Design Technique:**
+**_Kadane's Algorithm_**:Kadane's Algorithm is used to find the maximum sum subarray within a one-dimensional array of numbers. In this case, this can be used to find the period of maximum user engagement by analyzing time-series data of user interactions, such as views or likes.Let's consider a scenario where we want to analyze user activity to identify binge-watching patterns and detect the longest streaks of continuous viewing activity by each user.
+In the below graph,Kadane's algorithm is implemented to find the maximum sum of a contiguous subarray within a user's viewing activity data. It iterates through the array, maintaining two variables: max_ending_here (current subarray sum) and max_so_far (maximum sum found so far). By updating these variables dynamically, Kadane's algorithm identifies the longest streak of continuous viewing activity.
+
 Scenario: Analyzing user interactions to detect patterns, preferences, and potential issues.
 
 Algorithms Involved:
