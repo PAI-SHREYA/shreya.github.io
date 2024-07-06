@@ -49,9 +49,20 @@ _**KD Tree Design**_
 _**System Architecture**_
 <img src="assets/img/inside/1/rec_sys.jpeg" alt="System Architecture" width="500">
     
-|Data Structure/Algorithm   |Time Complexity   |Space Complexity   |Code Link   |
-|---------------------------|------------------|-------------------|------------|
-|Binary Indexed Tree/Fenwick Tree|O(log n)|O(n log n)|[Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/FenwickTree.cpp)|
+<table>
+  <tr>
+    <th>Data Structure/Algorithm</th>
+    <th>Time Complexity</th>
+    <th>Space Complexity</th>
+    <th>Code Link</th>
+  </tr>
+  <tr>
+    <td>Binary Indexed Tree/Fenwick Tree</td>
+    <td>O(log n)</td>
+    <td>O(n log n)</td>
+    <td><a href="https://github.com/PAI-SHREYA/DSA/blob/main/Trees/FenwickTree.cpp">Code</a></td>
+  </tr>
+</table>
 
 
 
