@@ -25,90 +25,13 @@ The below image gives a basic implementation and graph traversal.
 -Based on the graph visualization and interaction weights, "Stranger Things" (M1) and "Money Heist" (M3) appear to be popular among users (User1 and User3 respectively), as they have higher interaction weights (watching and likes).
 -The DFS and BFS traversal results show the sequence of interactions and exploration paths starting from User1, revealing how users may discover new content or engage with related items based on their initial interactions.
 
+_**3.Union-Find  and Root Method:**_
+This method can be used to detect connected components in user behavior data.Union-Find method can be used to identify clusters of users with similar behaviors, enabling personalized marketing strategies. The root method helps in quickly finding and merging these clusters, ensuring efficient user segmentation.
 
 
-2. Union-Find Basic and Root Method:
-Application: Detecting connected components in user behavior data.
-Explanation: Use Union-Find to identify clusters of users with similar behaviors, enabling personalized marketing strategies. The root method helps in quickly finding and merging these clusters, ensuring efficient user segmentation.
-System Architecture:
-
-Data Collection: Collect user interaction data.
-Graph Construction: Build interaction graphs.
-Algorithm Application: Apply DFS, BFS, and Union-Find to analyze data.
-Insights Generation: Generate insights and personalized marketing strategies.
+**Complexity Analysis and Codes**
 
 
-
-Use Case 3: User Activity Analysis
-Scenario: Analyzing user interactions to detect patterns, preferences, and potential issues.
-
-Algorithms Involved:
-1. DFS and BFS:
-
-Application: Traversing user interaction graphs.
-Explanation: DFS can explore deep user interactions, identifying patterns like binge-watching. BFS can analyze user behavior breadth-wise, tracking content discovery paths.
-Design:
-
-User Interaction Graph: Nodes represent users and edges represent interactions.
-DFS for Deep Analysis: Explore deep interaction sequences.
-BFS for Breadth Analysis: Analyze behavior at each level.
-Optimization:
-
-Time Complexity: 
-𝑂
-(
-𝑉
-+
-𝐸
-)
-O(V+E) for both DFS and BFS.
-Space Complexity: 
-𝑂
-(
-𝑉
-)
-O(V) for DFS (due to recursion stack) and 
-𝑂
-(
-𝑉
-)
-O(V) for BFS (due to queue).
-Issues:
-
-Managing large graphs with millions of users and interactions.
-Balancing depth and breadth analysis for comprehensive insights.
-2. Union-Find Basic and Root Method:
-
-Application: Detecting connected components in user behavior data.
-Explanation: Use Union-Find to identify clusters of similar user behaviors, enabling personalized marketing strategies.
-Design:
-
-User Behavior Graph: Nodes represent users, edges represent similar behaviors.
-Union-Find Operations: Union to merge clusters, Find to identify cluster roots.
-Optimization:
-
-Path Compression and Union by Rank: Enhance efficiency.
-Time Complexity: Almost constant time, 
-𝑂
-(
-𝛼
-(
-𝑛
-)
-)
-O(α(n)) where 
-𝛼
-α is the inverse Ackermann function.
-Space Complexity: 
-𝑂
-(
-𝑉
-)
-O(V) for storing parent and rank arrays.
-Issues:
-
-Handling frequent updates to user behavior data.
-Ensuring clusters are meaningful and actionable.
 
 
 
