@@ -15,7 +15,7 @@ The main challenge in CDN optimization for Netflix lies in managing the global s
 **Design Technique:**
 
 **_1.Ford-Fulkerson Algorithm:_**
-Ford-Fulkerson is used to find the maximum flow in a network by iteratively increasing flow along augmenting paths.Ford-Fulkerson optimizes traffic routing by adjusting flow rates between CDN nodes and edge servers in response to changing network dynamics.
+Ford-Fulkerson is used to find the maximum flow in a network by iteratively increasing flow along augmenting paths.A content delivery network (CDN) like Netflix needs to efficiently deliver content (videos) to millions of users worldwide. The key challenges include minimizing latency, maximizing bandwidth utilization, and ensuring content availability and redundancy. The Ford-Fulkerson algorithm can help optimize the distribution of content from servers (nodes) to end-users (sinks) by finding the maximum flow in the network.
 
 
 
