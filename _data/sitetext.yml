@@ -22,7 +22,7 @@ en: &DEFAULT_EN
     title: "About Netflix and it's Market Analysis"
     services:
     text: |
-      {% include about-netflix.html %}
+      # {% include about-netflix.html %}
  
 
     
