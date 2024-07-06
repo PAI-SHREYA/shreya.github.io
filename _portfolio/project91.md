@@ -6,7 +6,7 @@ alt: Keep Exploring
 
 caption:
   title: Bandwidth Optimization
-  thumbnail: assets/img/portfolio/th.jpg
+  thumbnail: assets/img/portfolio/Screenshot (418).png
 ---
 
 **Performance Analysis**
