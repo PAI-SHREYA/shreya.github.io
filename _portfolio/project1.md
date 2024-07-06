@@ -43,10 +43,7 @@ For a given user, the KD-Tree is queried to find the nearest content items or si
 Nearest neighbors are found based on the Euclidean distance in the k-dimensional space.
 Content items closest to the user point are recommended.
 Similar users are identified, and their viewing preferences are used to generate additional recommendations.
-![KD-Tree Design](assets/img/inside/1/kd_tree_design.png)
 
-**System Architecture**
-![System Architecture](assets/img/inside/1/rec_sys.jpeg)
 
 
 
