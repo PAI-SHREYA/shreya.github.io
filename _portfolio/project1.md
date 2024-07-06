@@ -1,7 +1,7 @@
 ---
 title: Content Recommendation
 subtitle: Netflix’s content recommendation system is designed to personalize the viewing experience by suggesting movies and shows that align with individual user preferences. This system analyzes viewing history, search queries, and user ratings to identify patterns and predict what content a user is likely to enjoy. The goal is to increase user engagement by making it easier for users to find content they love.
-image: assets/img/inside/IEEE TKDE 2020_1.png
+image: assets/img/inside/1/IEEE TKDE 2020_1.png
 alt: Keep Exploring
 
 caption:
@@ -34,7 +34,7 @@ _**Attributes to be considerred**_:
 10.The device we are watching on.
 11.The number of searches and what is searched for.
 
-**_KD-Tree Desig_**
+**_KD-Tree Design_**
 Each user and content item is represented as a k-dimensional point.
 Example: A user could be represented as (watch time, ratings, viewing history vector, device type, time of day, etc.).
 KD-Tree Construction:
@@ -43,6 +43,10 @@ For a given user, the KD-Tree is queried to find the nearest content items or si
 Nearest neighbors are found based on the Euclidean distance in the k-dimensional space.
 Content items closest to the user point are recommended.
 Similar users are identified, and their viewing preferences are used to generate additional recommendations.
+image: assets/img/inside/1/kd_tree_design.png
+**System Architecture**
+image: assets/img/inside/1/rec_sys.jpeg
+
 
 
 
