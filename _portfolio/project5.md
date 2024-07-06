@@ -1,6 +1,7 @@
 ---
 title: Optimizing Content Delivery Networks (CDNs)
-subtitle: Detecting fraudulent activity in user accounts is vital for maintaining the integrity and trust of the Netflix platform. Fraudulent activities can include account takeovers, fraudulent subscriptions and abuse of free trials.
+subtitle: Optimizing Content Delivery Networks (CDNs) at Netflix involves enhancing the distribution and delivery of video content to users worldwide. CDNs are important infrastructure components that ensure fast, reliable and efficient delivery of streaming media by minimizing latency and improving data transfer speeds.
+
 image: assets/img/portfolio/04-full.jpg
 alt: 
 
@@ -9,4 +10,20 @@ caption:
   thumbnail: assets/img/portfolio/Guide-to-CDN-1024x558.jpg
 ---
 **Challenges and Market Benefits**
-The primary challenge in fraud detection is distinguishing between legitimate user behavior and fraudulent activities amidst large number of concurrent users. Additionally, real-time detection is crucial for preventing ongoing fraud. Effective fraud detection not only protects user accounts but also ensures trust in the platform, leading to increased user satisfaction and loyalty. By minimizing fraudulent activities, Netflix can also save on potential financial losses and maintain a secure user base.
+The main challenge in CDN optimization for Netflix lies in managing the global scale of users and content distribution while maintaining high-quality streaming experiences across diverse network conditions. Addressing these challenges can lead to significant market benefits. Faster content delivery and reduced buffering improves user satisfaction and engagement. Also, optimizing CDN routes and caching strategies can reduce bandwidth costs and operational expenses.
+
+**Design Technique:**
+
+**_1.Ford-Fulkerson Algorithm:_**
+Ford-Fulkerson is used to find the maximum flow in a network by iteratively increasing flow along augmenting paths.Ford-Fulkerson optimizes traffic routing by adjusting flow rates between CDN nodes and edge servers in response to changing network dynamics.
+
+
+
+**Complexity Analysis and Codes**
+-_**Ford-Fulkerson Algorithm:**_
+
+Time Complexity: O(E * V^2) where E is the number of edges and V is the number of vertices
+Space Complexity: O(V^2) where V is the number of vertices
+code[()]
+
+
