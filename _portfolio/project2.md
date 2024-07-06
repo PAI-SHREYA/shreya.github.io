@@ -1,8 +1,7 @@
 ---
 title: User Activity Analysis
 subtitle: Netflix aims to improve its user experience by analyzing real-time user engagement metrics such as the number of views, churn rates, or total watch time over specific periods. By monitoring these metrics, Netflix identifys trends that help in content acquisition and production decisions. 
-image: assets/img/portfolio/02-full.jpg
-alt: Keep Exploring
+
 
 caption:
   title: User Activity Analysis
@@ -11,6 +10,7 @@ caption:
 **Challenges and Market Benefits:**
 
 **Design Technique:**
+
 **_1.Kadane's Algorithm_**:Kadane's Algorithm is used to find the maximum sum subarray within a one-dimensional array of numbers. In this case, this can be used to find the period of maximum user engagement by analyzing time-series data of user interactions, such as views or likes.Let's consider a scenario where we want to analyze user activity to identify binge-watching patterns and detect the longest streaks of continuous viewing activity by each user.
 In the below graph,Kadane's algorithm is implemented to find the maximum sum of a contiguous subarray within a user's viewing activity data. It iterates through the array, maintaining two variables: max_ending_here (current subarray sum) and max_so_far (maximum sum found so far). By updating these variables dynamically, Kadane's algorithm identifies the longest streak of continuous viewing activity.
 <img src="assets/img/inside/2_graph.png" alt="Kadane Graph">
@@ -41,7 +41,6 @@ This method can be used to detect connected components in user behavior data.Uni
   Space Complexity: O(n)
   
   [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/FenwickTree.cpp)
-  
 - _**DFS**_:
   
   Access, search, insertion, and deletion: O(log n),where n is the number of data points.
@@ -57,9 +56,7 @@ This method can be used to detect connected components in user behavior data.Uni
   Space complexity: O(n)
   
   [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/KD_Tree.cpp)
-
-
-  - _**Union Find**_:
+- _**Union Find**_:
   
   Access, search, insertion, and deletion: O(log n),where n is the number of data points.
   
