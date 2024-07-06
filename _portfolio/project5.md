@@ -27,6 +27,21 @@ Time Complexity: O(E * V^2) where E is the number of edges and V is the number o
 
 Space Complexity: O(V^2) where V is the number of vertices
 
-code([https://github.com/PAI-SHREYA/DSA/blob/main/Trees/Ford-Fulkerson.cpp])
+[code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/Ford-Fulkerson.cpp)
+
+-_**A-star Search Algorithm:**_
+
+Time Complexity: O(E) (Worst case) for traversal, where E is the total number of edges.
+
+Space Complexity: O(V) where V is the number of vertices
+
+[code]([https://github.com/PAI-SHREYA/DSA/blob/main/Trees/Ford-Fulkerson.cpp](https://github.com/PAI-SHREYA/DSA/blob/main/Graph%20Traversal/A*-search.cpp))
+
+-_**Best First Search:**_
+
+Time Complexity: O(E logV) for traversal and O(log V) for insertion and deletion.
+Space Complexity: O(V) where V is the number of vertices
+
+[code](https://github.com/PAI-SHREYA/DSA/blob/main/Graph%20Traversal/best-first-search.cpp))
 
 
