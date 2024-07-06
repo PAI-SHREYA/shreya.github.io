@@ -13,17 +13,29 @@ Effective subtitle synchronization significantly improves the user experience by
 
 
 **Design Technique**
+
 **_1.AVL Trees:_**
 AVL Trees are self-balancing binary search trees where the difference in heights of left and right subtrees cannot be more than one for all nodes. They ensure that the tree remains balanced, providing O(log n) time complexity for insertions, deletions, and lookups.In subtitle synchronization, AVL Trees can index subtitle entries by their timestamps. This allows for efficient insertion of new subtitles, updates to existing ones, and fast lookups to find the subtitle corresponding to a specific point in the video.
 
 _AVL Tree Design:_
 -Each node contains a timestamp, subtitle text, and pointers to its left and right children.
+
 -Searches traverse the tree based on timestamp values.
 
 AVL Trees scale well for large datasets.But,while they provide efficient balancing, they may require frequent rotations during insertions and deletions, which  introduces overhead.
 
+**_2.Edit Distance Problem:_**
+The Edit Distance algorithm calculates the minimum number of operations (insertions, deletions, substitutions) required to transform one string into another. This is solved using a dynamic programming approach.In this usecase,the Edit Distance algorithm can be applied to align subtitle text with audio transcripts, ensuring that the subtitles closely match the spoken words. This can help in correcting timing errors and improving synchronization accuracy.
 
+_DP Table Design:_
 
+• A 2D table is used where dp (i, j) represents the edit distance between the first i characters of the subtitle and the first j characters of the transcript.
+•	The table is filled using a recurrence relation that considers insertion, deletion, and substitution operations.
+•	Once the table is filled, backtracking is used to find the optimal sequence of operations to transform the subtitle text.
+
+The algorithm has quadratic time complexity, so it is not suitable for very large transcripts and subtitles. Could be used for moderate-sized text.
+
+**_3.Dynamic Time Warping:_**
 
 
 
