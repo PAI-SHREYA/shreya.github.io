@@ -44,15 +44,14 @@ Nearest neighbors are found based on the Euclidean distance in the k-dimensional
 Content items closest to the user point are recommended.
 Similar users are identified, and their viewing preferences are used to generate additional recommendations.
 
-images:
-  - src: assets/img/inside/1/kd_tree_design.png
-    alt: KD-Tree Design
+image: assets/img/inside/1/kd_tree_design.png
+alt: KD-Tree Design
   - src: assets/img/inside/1/rec_sys.jpeg
     alt: System Architecture
     
 |Data Structure/Algorithm|Time Complexity|Space Complexity|Code Link|
 |------------------------|---------------|----------------|----------|
-|Binary Indexed Tree/Fenwick Tree|O(log n)|O(n log n)|[Code]([https://github.com/PAI-SHREYA/DSA/blob/main/Trees/03_Minimum_Segment.cpp](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/FenwickTree.cpp))|
+|Binary Indexed Tree/Fenwick Tree|O(log n)|O(n log n)|[Code]((https://github.com/PAI-SHREYA/DSA/blob/main/Trees/FenwickTree.cpp))|
 
 
 
