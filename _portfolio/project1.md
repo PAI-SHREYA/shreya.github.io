@@ -50,7 +50,7 @@ _**System Architecture**_
 <img src="assets/img/inside/1/rec_sys.jpeg" alt="System Architecture" width="500">
     
 |Data Structure/Algorithm|Time Complexity|Space Complexity|Code Link|
-|------------------------|---------------|----------------|----------|
+|------------------------|---------------|----------------|---------|
 |Binary Indexed Tree/Fenwick Tree|O(log n)|O(n log n)|[Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/FenwickTree.cpp)|
 
 
