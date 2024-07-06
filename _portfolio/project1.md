@@ -51,12 +51,12 @@ _**System Architecture**_
     
 **Complexity Analysis and Codes**
 - Binary Indexed / Fenwick Tree:
-  text: |
+  
    Construction: ( O(n log n) )
    Update (Point Update): ( O(log n) )
    Query (Prefix Sum): ( O(log n) )
    Space Complexity: ( O(n) )
-   Code [(https://github.com/PAI-SHREYA/DSA/blob/main/Trees/FenwickTree.cpp)] \n.
+   Code [(https://github.com/PAI-SHREYA/DSA/blob/main/Trees/FenwickTree.cpp)] .
 - KD-Tree
    The time complexity of access, search, insertion, and deletion in a KD Tree is **O(log n)**, where n is the number of data points. This is because the tree is constructed in a top-down fashion and the data points are assigned to nodes in a recursive manner. Thus, the time complexity is proportional to the length of the tree, which is proportional to the logarithm of the number of data points.
 
