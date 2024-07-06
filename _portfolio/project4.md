@@ -24,5 +24,33 @@ Use the subset sum problem to identify unusual spending patterns or access behav
 **_3.Red-Black Tree:_**
 
 **Complexity Analysis and code**
+- _**Kruskal's Algorithm**_:
+  
+  Construction: O(n log n) 
+  
+  Update (Point Update): O(log n) 
+  
+  Query (Prefix Sum): O(log n)
+  
+  Space Complexity: O(n)
+  
+  [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/FenwickTree.cpp)
+
+- _**Subset Problem**_:
+  
+  Access, search, insertion, and deletion: O(log n),where n is the number of data points.
+  
+  Space complexity: O(n)
+  
+  [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Dynamic%20Programming/subset.cpp))
+
+  
+- _**Red-Black Tree**_:
+  
+  search, insertion, and deletion: O(log n)
+  
+  Space complexity: O(n)
+  
+  [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/Red-Black-Tee.cpp))
 
 
