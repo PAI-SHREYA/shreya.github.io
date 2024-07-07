@@ -14,18 +14,8 @@ For optimizing search queries, particularly for range queries.Square Root Decomp
 _Scenario: User Engagement Scores for Netflix Titles_
 
 We have a user engagement scores for various Netflix titles. These scores could be based on metrics such as views, likes, comments, or a combination thereof. We want to efficiently query and analyze which titles have the highest engagement scores using Square Root Decomposition.
-Title                   | User Engagement Score
-------------------------|-----------------------
-Stranger Things         | 92
-The Crown               | 85
-Money Heist             | 89
-Bridgerton              | 94
-Ozark                   | 88
-The Witcher             | 87
-Narcos                  | 84
-House of Cards          | 91
-Black Mirror            | 90
-The Umbrella Academy    | 86
+
+<img src="assets/img/inside/sear-table.png">
 
 Divide the list of titles into blocks. The number of blocks 𝑘= sqrt(n).
 n is the total number of titles.
@@ -33,9 +23,7 @@ n is the total number of titles.
 Netflix Titles:
 
 Block 1: [Stranger Things, The Crown, Money Heist]
-
 Block 2: [Bridgerton, Ozark, The Witcher]
-
 Block 3: [Narcos, House of Cards, Black Mirror, The Umbrella Academy]
 
 Square Root Decomposition is applied here to efficiently query and analyze user engagement scores for Netflix titles. By dividing the dataset into blocks and processing queries within these blocks, we can quickly identify titles with the highest engagement scores, providing insights into popular content on the platform.
@@ -53,7 +41,7 @@ Binary search can be used for search optimization in the following scenarios:
 _**4. Trie Data Structure:**_
 Tries, also known as prefix trees, are a efficient data structure for storing a dynamic set of strings where common prefixes are shared. They can be particularly useful for search optimization on the Netflix platform, especially for auto-completion, spell-checking and prefix-based search queries. 
 
-<img source="assets/img/inside/trie.png">
+<img src="assets/img/inside/trie.png">
 
 **Complexity Analysis and Code**
 
