@@ -53,6 +53,42 @@ Binary search can be used for search optimization in the following scenarios:
 _**4. Trie Data Structure:**_
 Tries, also known as prefix trees, are a efficient data structure for storing a dynamic set of strings where common prefixes are shared. They can be particularly useful for search optimization on the Netflix platform, especially for auto-completion, spell-checking and prefix-based search queries. 
 
+<img source="assets/img/inside/trie.png">
+
+**Complexity Analysis and Code**
+
+-**_Square Root Decomposition_**
+
+Time Complexity: O(N)
+
+Auxiliary Space: O(MAXN), where MAXN is the maximum value of N
+
+[Code](https://github.com/PAI-SHREYA/DSA/blob/main/sqrt_dec.cpp)
+
+-**_MO's Algorithm_**
+
+Time Complexity: O((N + Q) * sqrt(N) * F)
+
+[Code](https://github.com/PAI-SHREYA/DSA/blob/main/mo.cpp)
+
+-_**Binary Search**_
+
+Time Complexity: O(log N)
+
+Auxiliary Space: O(1)
+
+[Code](https://github.com/PAI-SHREYA/DSA/blob/main/Binary_serach.cpp)
+
+-_**Trie**_
+Operation|	Time Complexity|	Auxiliary Space
+---------|-----------------|-----------------
+Insertion|	O(n)|	O(n*m)
+Searching	|O(n)	|O(1)
+Deletion|	O(n)|	O(1)
+
+[Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/Trie.cpp)
+
+
 
 
 
