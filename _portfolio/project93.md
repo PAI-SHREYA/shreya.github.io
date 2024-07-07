@@ -6,7 +6,7 @@ alt: Keep Exploring
 
 caption:
   title: Search Optimization
-  thumbnail: assets/img/portfolio/ShopifyPlus_Cross_Device_Targeting_3840x2160.png
+  thumbnail: _portfolio/search.png
 ---
 
 **Performance Analysis**
