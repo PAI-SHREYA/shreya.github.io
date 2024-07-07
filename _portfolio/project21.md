@@ -24,7 +24,7 @@ It uses a binary heap to ensure efficient extraction of the minimum frequency no
 DCT converts spatial domain data (like video frames) into frequency domain data, which can then be quantized and compressed.
 
 _Implementation:_
-<img src="assets/img/inside/1/rec_sys.jpeg" alt="System Architecture" width="500">
+<img src="assets/img/inside/afba6d6d-3f62-4b38-9d28-5d15883832c4.jpg" alt="System Architecture" width="500">
 
 **Complexity Analyssis and Code**
 -**_Huffman Coding_**
