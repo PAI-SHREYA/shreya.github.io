@@ -22,7 +22,7 @@ The Boruvka's algorithm can be implemented as follows:
 -->Start with each ad slot as a separate component.For each component, find the cheapest edge connecting it to another component.These edges are added to the MST.
 -->Repeat until there is only one component left.
 -->The resulting MST provides an optimized sequence of ad placements with minimal transition costs or maximal benefits.
-<img src="assets/img/inside/boruvka.png" alt="KD-Tree Design">
+<img src="assets/img/inside/boruvka.png" alt="KD-Tree Design" width="500">
 
 _**2.Look Up Table:**_
 Using this we can quickly retrieve precomputed values to optimize scheduling decisions, such as the best times to display ads based on historical data.
@@ -38,7 +38,7 @@ _**4.Flavius Numbers:**_
 Flavius numbers are less commonly known, but they can be used in scheduling algorithms to manage repetitive patterns or sequences.Flavius numbers are similar to Josephus problem solutions, where people are eliminated in a circle until only one remains.We can use this property to model round-robin scheduling or cyclic patterns.
 
 _Design:_
-<img src="assets/img/inside/ad-scheduling.jpeg" alt="sys arch">
+<img src="assets/img/inside/ad-scheduling.jpeg" alt="sys arch" width="500">
 
  
 **Complexity Analysis and Codes**
