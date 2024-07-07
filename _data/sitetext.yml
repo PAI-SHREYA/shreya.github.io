@@ -31,13 +31,8 @@ en: &DEFAULT_EN
         <p>Netflix leverages big data analytics to understand viewer preferences and behaviors, enabling the company to deliver personalized content recommendations that keep users engaged. The platform’s recommendation system, for instance, is a cornerstone of its user experience, utilizing algorithms such as collaborative filtering, content-based filtering, and hybrid models. Furthermore, Netflix employs advanced video encoding techniques to ensure high-quality streaming across diverse network conditions, optimizing the viewing experience for millions of users simultaneously.</p>
         <p>The technological infrastructure of Netflix is built on scalable cloud services, predominantly using Amazon Web Services (AWS), which allows the platform to handle vast amounts of data and provide uninterrupted streaming services globally. Additionally, Netflix’s investment in machine learning and artificial intelligence has enabled it to innovate in areas such as dynamic ad insertion, fraud detection, and viewer engagement prediction.</p>
         <p>This portfolio aims to explore and apply advanced data structures and algorithms to various business use cases within Netflix, providing a comprehensive analysis of their implementation and impact. By delving into these technical aspects, the portfolio will illustrate how Netflix maintains its competitive edge and continues to lead the streaming industry.</p>
-      </div>
-
-  # objectives:
-    title: "Objectives of the Portfolio"
-    # section: "objectives"
-    text: |
-      <div style="font-size: 16px; font-family: 'Arial', sans-serif; color: #343a40;">
+        <h1>Objectives of the Portfolio </h1>
+        <div style="font-size: 16px; font-family: 'Arial', sans-serif; color: #343a40;">
         <ul style="list-style-type: none; padding-left: 0;">
           <li style="margin-bottom: 10px;">
             <i class="fas fa-chart-line" style="color: #e50914; margin-right: 10px;"></i>
@@ -53,6 +48,10 @@ en: &DEFAULT_EN
           </li>
         </ul>
       </div>
+      </div>
+
+
+     
   
     
   portfolio:
