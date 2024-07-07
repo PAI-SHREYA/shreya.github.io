@@ -5,7 +5,7 @@ title: References
 
 caption:
   title: References 
-  thumbnail: assets/img/portfolio/vDksJyGDifLwmrfasXFGs3IBoOrfoDUX5ACJ2eVc.jpg
+  thumbnail: assets/img/Reference.jpg
 ---
 
 1. Sanfoundry. "C++ Program to Implement Ford-Fulkerson Algorithm."  https://www.sanfoundry.com/cpp-program-implement-ford-fulkerson-algorithm/.
