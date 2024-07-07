@@ -28,7 +28,8 @@ The below image gives a basic implementation and graph traversal.
 _**3.Union-Find  and Root Method:**_
 This method can be used to detect connected components in user behavior data.Union-Find method can be used to identify clusters of users with similar behaviors, enabling personalized marketing strategies. The root method helps in quickly finding and merging these clusters, ensuring efficient user segmentation.
 
-
+_Design:_
+<img src="assets/img/inside/1/kd_tree_design.png" alt="KD-Tree Design">
 **Complexity Analysis and Codes**
 - _**Kadanes's Algorithm**_:
   
