@@ -41,12 +41,17 @@ Block 3: [Narcos, House of Cards, Black Mirror, The Umbrella Academy]
 Square Root Decomposition is applied here to efficiently query and analyze user engagement scores for Netflix titles. By dividing the dataset into blocks and processing queries within these blocks, we can quickly identify titles with the highest engagement scores, providing insights into popular content on the platform.
 
 _**2.MO's Algorithm:**_
-MO's Algorithm sorts and processes multiple range queries on a dataset, optimizing the query handling process.
+Mo's Algorithm, also known as the "Sqrt Decomposition" algorithm, is typically used to answer offline range queries efficiently. It's particularly well-suited for problems where you need to answer multiple queries on a static array.It is not suitable for this use case because the catalog of movies and shows is constantly being updated with new releases, removals, and changes in metadata.Also,Search queries may involve complex filters, personalized recommendations, and relevance scoring rather than simple range queries.
 
 _**3.Binary Search:**_
-Binary search repeatedly divides the search interval in half until the target value is found or the interval is empty.
+Binary search can be used for search optimization in the following scenarios:
+
+-Quickly locating a specific movie title in a sorted list of titles.
+
+-Although binary search is not inherently designed for prefix matching, it can be adapted to find the range of titles that start with a given prefix.
 
 _**4. Trie Data Structure:**_
+Tries, also known as prefix trees, are a efficient data structure for storing a dynamic set of strings where common prefixes are shared. They can be particularly useful for search optimization on the Netflix platform, especially for auto-completion, spell-checking and prefix-based search queries. 
 
 
 
