@@ -20,7 +20,7 @@ caption:
 
 6. Marshall, Dave. [Multimedia Compression - Discrete Cosine Transform](https://users.cs.cf.ac.uk/Dave.Marshall/Multimedia/node214.html)
 
-7. YouTube. [Dynamic Programming on Trees | Set 2 (Mo's Algorithm)](https://www.youtube.com/watch?v=j2HSd3HCpDs)
+7. YouTube. [Dynamic Programming on Trees](https://www.youtube.com/watch?v=j2HSd3HCpDs)
 
 8. HackerEarth. [Mo's Algorithm](https://www.hackerearth.com/practice/notes/mos-algorithm/)
 
