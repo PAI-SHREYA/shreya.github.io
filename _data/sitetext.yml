@@ -56,7 +56,7 @@ en: &DEFAULT_EN
     
   portfolio:
     title: "Portfolio"
-    text: "Please Click on each of the blocks to know more."
+    text: "Please Click on each of the use cases to know more."
     section: "portfolio"
     closebutton: "Close Project"
 
