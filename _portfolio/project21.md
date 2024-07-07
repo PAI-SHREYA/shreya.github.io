@@ -1,8 +1,6 @@
 ---
 title: Content Compression and Decompression
 subtitle: Netflix's content compression and decompression system is designed to store and deliver high-quality multimedia content to users.The system reduces storage requirements and bandwidth usage, ensuring seamless streaming experiences. The goal is to maintain high video and audio quality while minimizing data transmission overhead.
-image: assets/img/portfolio/01-full.jpg
-alt: Keep Exploring
 
 caption:
   title: Content Compression and Decompression
@@ -26,6 +24,7 @@ It uses a binary heap to ensure efficient extraction of the minimum frequency no
 DCT converts spatial domain data (like video frames) into frequency domain data, which can then be quantized and compressed.
 
 _Implementation:_
+<img src="assets/img/inside/1/rec_sys.jpeg" alt="System Architecture" width="500">
 
 **Complexity Analyssis and Code**
 -**_Huffman Coding_**
