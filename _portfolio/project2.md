@@ -31,7 +31,10 @@ This method can be used to detect connected components in user behavior data.Uni
 
 _Design:_
 <img src="assets/img/inside/9f44d99c-6541-460c-95db-a6be719b7395.jpg" alt="KD-Tree Design" width="500">
+
+
 **Complexity Analysis and Codes**
+
 - _**Kadanes's Algorithm**_:
   
   Construction: O(n log n) 
