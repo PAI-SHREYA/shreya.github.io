@@ -12,12 +12,31 @@ Users appreciate the ability to switch devices seamlessly, leading to higher sat
 **Design Technique**
 
 _**1.Lazy Propagation**_
-This updates and queries in range-based data structures. Useful for efficiently updating and querying user activity logs.
+Lazy propagation is a technique used to delay updates to a data structure until necessary. This can be particularly useful for handling updates in distributed systems or across multiple devices, such as syncing user preferences, watch history, and bookmarks on Netflix.Suppose a user is watching a movie on their phone and then switches to their TV. The user's watch progress, preferences, and recently watched items need to be synchronized across devices.Instead of immediately pushing every small update to all devices, updates are recorded and propagated lazily when a device requests the latest data.
+This reduces the amount of data transmitted and can handle bursts of updates efficiently.
 
 _**2. Bloom Filters**_
-A Bloom filter is a space-efficient probabilistic data structure used to test whether an element is a member of a set. False positive matches are possible, but false negatives are not.
+Bloom filters are a space-efficient probabilistic data structure used to test whether an element is a member of a set. They are useful for scenarios where false positives are acceptable but false negatives are not.Bloom filters can be used to maintain a compact representation of the user's watch history.
+When a device queries the server, it can quickly check the Bloom filter to see if the user has watched a particular show or movie.
 
-**Complexity Analysis**
+**Complexity Analysis and Codes**
+
+_**-Lazy Propagation**_
+
+Time Complexity: O(n logn)
+
+Space Complexity: O(n logn)
+
+[Code](https://github.com/PAI-SHREYA/DSA/blob/main/Software%20Principles/LazyPropagation.cpp)
+
+_**- Bloom Filters**_
+
+For m bits and k hash function,
+
+Time Complexity: O(k) for insertion and search.
+Space Complexity: O(m)
+
+[Code](https://github.com/PAI-SHREYA/DSA/blob/main/Bloom.cpp)
 
 
 
