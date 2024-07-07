@@ -38,7 +38,7 @@ _**4.Flavius Numbers:**_
 Flavius numbers are less commonly known, but they can be used in scheduling algorithms to manage repetitive patterns or sequences.Flavius numbers are similar to Josephus problem solutions, where people are eliminated in a circle until only one remains.We can use this property to model round-robin scheduling or cyclic patterns.
 
 _Design:_
-<img alt="sys arch">
+<img src="assets/img/inside/ad-scheduling.jpeg" alt="sys arch">
 
  
 **Complexity Analysis and Codes**
