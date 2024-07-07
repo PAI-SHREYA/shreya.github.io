@@ -1,6 +1,6 @@
 ---
 title: Multiple User Support
-subtitle: Lorem ipsum dolor sit amet consectetur.
+subtitle: Netflix supports multiple user profiles within a single account, which is crucial for catering to diverse household needs and preferences. 
 image: assets/img/portfolio/06-full.jpg
 alt: 
 
