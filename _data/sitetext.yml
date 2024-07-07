@@ -34,15 +34,15 @@ en: &DEFAULT_EN
         <h1>Objectives of the Portfolio </h1>
         <div style="font-size: 16px; font-family: 'Arial', sans-serif; color: #343a40;">
         <ul style="list-style-type: none; padding-left: 0;">
-          <li style="margin-bottom: 10px;">
+          <li style="margin-bottom: 15px;">
             <i class="fas fa-chart-line" style="color: #e50914; margin-right: 10px;"></i>
             <span>To apply concepts learned in APS course in Netflix's use cases.</span>
           </li>
-          <li style="margin-bottom: 10px;">
+          <li style="margin-bottom: 15px;">
             <i class="fas fa-cogs" style="color: #e50914; margin-right: 10px;"></i>
             <span>To apply algorithms and data structures to improve the efficiency of Netflix services.</span>
           </li>
-          <li style="margin-bottom: 10px;">
+          <li style="margin-bottom: 15px;">
             <i class="fas fa-user-check" style="color: #e50914; margin-right: 10px;"></i>
             <span>Understand existing algorithms and data structures applied in the domain.</span>
           </li>
