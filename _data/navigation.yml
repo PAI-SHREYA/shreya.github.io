@@ -11,12 +11,14 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "About Portfolio"
-      section: about
     - title: "About Netflix"
       section: services
+    - title: "Objectives"
+      section: objectives
     - title: "Portfolio"
       section: portfolio
+    - title: "About Project"
+      section: about
     - title: "Theme Source"
       url: https://github.com/raviriley/agency-jekyll-theme/
 en-US:
