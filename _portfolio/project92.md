@@ -6,7 +6,7 @@ alt: Keep Exploring
 
 caption:
   title: Cross-Device Sync
-  thumbnail: assets/img/portfolio/Screenshot (418).png
+  thumbnail: assets/img/portfolio/ShopifyPlus_Cross_Device_Targeting_3840x2160.png
 ---
 
 **Performance Analysis**
