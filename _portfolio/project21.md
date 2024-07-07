@@ -26,6 +26,14 @@ DCT converts spatial domain data (like video frames) into frequency domain data,
 _Implementation:_
 <img src="assets/img/inside/afba6d6d-3f62-4b38-9d28-5d15883832c4.jpg" alt="System Architecture" width="500">
 
+**_3.Lempel-Ziv-Welch (LZW) Algorithm:_**
+LZW is a dictionary-based compression algorithm that replaces repeated sequences with references to a dictionary.This can be used in script and dialogue Compression.
+Design:
+
+Compress subtitle text by replacing repeated phrases and sentences with dictionary references.
+
+Use LZW to compress scripts and dialogues that often have repeated lines or phrases.
+
 **Complexity Analyssis and Code**
 -**_Huffman Coding_**
 
@@ -45,6 +53,13 @@ Space Complexity: O(n)
 
 [code](https://github.com/PAI-SHREYA/DSA/blob/main/Software%20Principles/dct.cpp)
 
+-**_Lempel-Ziv-Welch (LZW) Algorithm:_**
+
+Encoding/Decoding: O(n), where n is the length of the input data.
+
+Space Complexity: O(n)
+
+[Code](https://github.com/PAI-SHREYA/DSA/blob/main/Software%20Principles/LZW.cpp)
 
 
 
