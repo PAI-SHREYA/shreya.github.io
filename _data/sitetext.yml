@@ -15,40 +15,28 @@ en: &DEFAULT_EN
 
   about:
     title: "About"
-    body: "Welcome to my Algorithmic Problem Solving project, a part of my 6th-semester Computer Science engineering course at KLE Technological University, Hubballi. I'm Shreya Pai, and under the guidance of my APS course teacher Professor Prakash Hegade, I explore the application of algorithms and data structures in solving real-world challenges, with a focus on Netflix's streaming platform. Through this project, I aim to analyze and implement various algorithms and data structures to enhance Netflix's user experience and optimize its operations. By delving into the intricacies of Netflix's recommendation system, content delivery, and user interface, I seek to demonstrate how algorithmic problem-solving skills can be applied to address complex problems in the field of streaming services."
     section: "about"
+    body: "Welcome to my Algorithmic Problem Solving project, a part of my 6th-semester Computer Science engineering course at KLE Technological University, Hubballi. I'm Shreya Pai, and under the guidance of my APS course teacher Professor Prakash Hegade, I explore the application of algorithms and data structures in solving real-world challenges, with a focus on Netflix's streaming platform. Through this project, I aim to analyze and implement various algorithms and data structures to enhance Netflix's user experience and optimize its operations. By delving into the intricacies of Netflix's recommendation system, content delivery, and user interface, I seek to demonstrate how algorithmic problem-solving skills can be applied to address complex problems in the field of streaming services."
+    
 
   services:
-    title: "Services"
+    title: "About Netflix and Market Analysis"
     section: "services"
-    list:
-      - title: "Content Recommendation"
-        icon: "fas fa-magic-sparkle" # Use the Font Awesome icon
-        desc: "Top picks just for you."
-      - title: "Content Delivery"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: "fas fa-laptop"
-      - title: "Content Categorization and Tagging"
-        desc: "Find your favourites faster."
-        icon: "fas fa-tags"
-      - title: "Dynamic Streaming Quality Adjustment"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: "fas fa-video"
-      - title: "Search and Filter"
-        desc: "Your description here, full **Markdown** support"
-        icon: "fas fa-search"
-      - title: "Real-time Analytics"
-        desc: "Insights as you watch."
-        icon: "fas fa-chart-line"
-      - title: "Parental Controls"
-        desc: "Your description here, full **Markdown** support"
-        icon: "fas fa-user-shield"
-      - title: "Offline Viewing"
-        desc: "Watch anywhere, anytime."
-        icon: "fas fa-download"
-      - title: "Multiple User Support"
-        desc: "Profiles for everyone"
-        icon: "fas fa-users"
+    text: |
+      <span>
+      Netflix, established in 1997 by Reed Hastings and Marc Randolph, has transformed from a DVD rental service into the world’s leading streaming entertainment platform. Today, Netflix serves over 230 million paid memberships across more than 190 countries, offering a vast library of TV series, documentaries, and feature films in a multitude of genres and languages. The company's success is underpinned by its sophisticated use of data structures, algorithms, and state-of-the-art technologies that ensure a seamless and personalized user experience.
+      </span>
+      <span>
+      The global streaming market has witnessed rapid growth, driven by technological advancements, increased internet accessibility, and changing consumer preferences towards on-demand content. According to a report by Grand View Research, the global video streaming market size was valued at USD 50.11 billion in 2020 and is projected to expand at a compound annual growth rate (CAGR) of 21.0% from 2021 to 2028. Netflix’s dominance in this market is attributed to its continuous innovation and strategic investments in content creation, data analytics, and user personalization .
+
+Netflix leverages big data analytics to understand viewer preferences and behaviors, enabling the company to deliver personalized content recommendations that keep users engaged. The platform’s recommendation system, for instance, is a cornerstone of its user experience, utilizing algorithms such as collaborative filtering, content-based filtering, and hybrid models. Furthermore, Netflix employs advanced video encoding techniques to ensure high-quality streaming across diverse network conditions, optimizing the viewing experience for millions of users simultaneously .
+
+The technological infrastructure of Netflix is built on scalable cloud services, predominantly using Amazon Web Services (AWS), which allows the platform to handle vast amounts of data and provide uninterrupted streaming services globally. Additionally, Netflix’s investment in machine learning and artificial intelligence has enabled it to innovate in areas such as dynamic ad insertion, fraud detection, and viewer engagement prediction .
+
+This portfolio aims to explore and apply advanced data structures and algorithms to various business use cases within Netflix, providing a comprehensive analysis of their implementation and impact. By delving into these technical aspects, the portfolio will illustrate how Netflix maintains its competitive edge and continues to lead the streaming industry.
+      </span>
+    
+       
 
   portfolio:
     title: "Portfolio"
