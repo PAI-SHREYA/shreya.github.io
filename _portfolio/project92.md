@@ -19,6 +19,10 @@ _**2. Bloom Filters**_
 Bloom filters are a space-efficient probabilistic data structure used to test whether an element is a member of a set. They are useful for scenarios where false positives are acceptable but false negatives are not.Bloom filters can be used to maintain a compact representation of the user's watch history.
 When a device queries the server, it can quickly check the Bloom filter to see if the user has watched a particular show or movie.
 
+Design:
+
+<img src="assets/img/inside/muti-device.png" width="500">
+
 **Complexity Analysis and Codes**
 
 _**-Lazy Propagation**_
