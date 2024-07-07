@@ -28,21 +28,43 @@ _**2.Look Up Table:**_
 Using this we can quickly retrieve precomputed values to optimize scheduling decisions, such as the best times to display ads based on historical data.
 Design Implementation:
 -Create lookup tables that store precomputed values for various metrics (e.g., user engagement, optimal ad times).Populate the lookup table with data derived from historical ad performance.During scheduling, use the lookup table to quickly retrieve the optimal ad times or sequences.
-<img src="assets/img/inside/1/kd_tree_design.png" alt="KD-Tree Design">
+
 
 _**3.Catalan Numbers:**_
 Catalan numbers often appear in problems involving combinatorial structures. In ad scheduling, they can be used to model and optimize hierarchical decision-making processes, such as ad slot arrangements or sequences.Catalan numbers can be used to determine the number of ways to sequence ads under certain constraints, such as no two high-priority ads being adjacent.
-<img src="assets/img/inside/1/kd_tree_design.png" alt="KD-Tree Design">
 
-_**4.Falvius Numbers:**_
-Falvius numbers are less commonly known, but they can be used in scheduling algorithms to manage repetitive patterns or sequences.Falvius numbers are similar to Josephus problem solutions, where people are eliminated in a circle until only one remains.We can use this property to model round-robin scheduling or cyclic patterns.
-<img src="assets/img/inside/1/kd_tree_design.png" alt="KD-Tree Design">
+
+_**4.Flavius Numbers:**_
+Flavius numbers are less commonly known, but they can be used in scheduling algorithms to manage repetitive patterns or sequences.Flavius numbers are similar to Josephus problem solutions, where people are eliminated in a circle until only one remains.We can use this property to model round-robin scheduling or cyclic patterns.
+
+_Design:_
+<img alt="sys arch">
 
  
 **Complexity Analysis and Codes**
+
 -**_Boruvka's Algorithm_**
+
+Time Complexity:O(E log V) 
+
+Space Complexity: O(V)
+
+[Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/Boruvka's.cpp)
 
 **_Look Up Table_**
 [Code](https://github.com/jiyapalrecha35/Google.github.io/blob/main/codes/lookupTable.cpp)
+
+**_Catalan Number(Using Binomial Coefficient)_**
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+[Code](https://github.com/PAI-SHREYA/DSA/blob/main/Catalan.cpp)
+
+**_Flavius Numbers_**
+Time complexity: O(n)
+Space complexity: O(1)
+
+
+[Code](https://github.com/PAI-SHREYA/DSA/blob/main/Flavius.cpp)
 
 
