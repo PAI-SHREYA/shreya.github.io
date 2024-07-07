@@ -36,6 +36,34 @@ _DP Table Design:_
 The algorithm has quadratic time complexity, so it is not suitable for very large transcripts and subtitles. Could be used for moderate-sized text.
 
 **_3.Dynamic Time Warping:_**
+Dynamic Time Warping (DTW) is a technique used to measure similarity between two sequences that may vary in time or speed. In the context of subtitle synchronization in Netflix, DTW can be applied to align and synchronize subtitles with video content, ensuring that the displayed subtitles correspond accurately to the spoken dialogue or events in the video.Subtitle files typically contain timestamped text segments corresponding to specific points in the video timeline. However, due to variations in video frame rates, audio delays, or subtitle file errors, these timestamps may not accurately align with the actual dialogue or events in the video. DTW helps to address these synchronization issues by dynamically aligning the subtitle timestamps with the video timeline.
+
+
+**Complexity Analysis and Codes**
+
+**_AVL Trees:_**
+
+Time Complexity: O(log n) for Insertion, Deletion and Search.  
+
+Space Complexity: O(n)
+
+[Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/AVL.cpp)
+
+**_Edit Distance Problem:_**
+
+Time Complexity: O(M x N) where M and N are lengths of the string 
+
+Auxiliary Space: O( N ), Length of the str2
+[Code](https://github.com/PAI-SHREYA/DSA/blob/main/Dynamic%20Programming/EditDistance.cpp)
+
+**_Dynamic Time Warping:_**
+
+Time Complexity: O(N*M), where 𝑁 and 𝑀 are the lengths of the two input sequences.
+
+Space Complexity: O(min(N,M))
+
+[code](https://github.com/PAI-SHREYA/DSA/blob/main/Software%20Principles/dtw-pseudocode)
+
 
 
 
