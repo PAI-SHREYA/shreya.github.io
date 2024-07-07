@@ -19,22 +19,19 @@ User interactions (e.g., account logins, subscription changes) can be represente
 Consider a scenario where multiple accounts are interacting in an unusual pattern, such as logging in from the same IP address or making similar subscription changes within a short period.
 
 **_2.Subset Problem:_**
-Use the subset sum problem to identify unusual spending patterns or access behaviors that deviate significantly from the norm.
+We can use the subset sum problem to identify unusual spending patterns or access behaviors that deviate significantly from the norm.
 
-**_3.Red-Black Tree:_**
+**_3.Floyd-Warshall Algorithm :_**
+Fraud detection often involves analyzing large graphs or networks of user interactions. While Floyd-Warshall can handle dense graphs well, its performance may suffer when applied to sparse graphs or when only pairwise connections are of interest (which is typical in fraud detection scenarios).Floyd-Warshall algorithm has a time complexity of O(V^3), where V is the number of vertices (nodes). In a large-scale system like Netflix, which handles millions of users and interactions, this can become computationally expensive and impractical for real-time or near real-time fraud detection.
 
 **Complexity Analysis and code**
 - _**Kruskal's Algorithm**_:
+
+Time Complexity: O(E * logE) or O(E * logV) 
+
+Space Complexity: O(V + E), where V is the number of vertices and E is the number of edges in the graph.
   
-  Construction: O(n log n) 
-  
-  Update (Point Update): O(log n) 
-  
-  Query (Prefix Sum): O(log n)
-  
-  Space Complexity: O(n)
-  
-  [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/FenwickTree.cpp)
+  [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/kruskal.cpp)
 
 - _**Subset Problem**_:
   
@@ -45,12 +42,13 @@ Use the subset sum problem to identify unusual spending patterns or access behav
   [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Dynamic%20Programming/subset.cpp))
 
   
-- _**Red-Black Tree**_:
+- _**Floyd-Warshall Algorithm**_:
   
-  search, insertion, and deletion: O(log n)
+Time complexity: O(V^3)
+
+Space complexity: O(V^2)
   
-  Space complexity: O(n)
-  
-  [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/Red-Black-Tee.cpp))
+  [Floyd Code](https://github.com/PAI-SHREYA/DSA/blob/main/Graph%20Traversal/floyd.c)
+  [Warshall Code](https://github.com/PAI-SHREYA/DSA/blob/main/Graph%20Traversal/warshal.c)
 
 
