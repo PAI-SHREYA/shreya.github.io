@@ -27,7 +27,7 @@ DCT converts spatial domain data (like video frames) into frequency domain data,
 
 _Implementation:_
 
-**Complexity Analyssis**
+**Complexity Analyssis and Code**
 -**_Huffman Coding_**
 
 Construction: O(n log n), where n is the number of unique characters.
@@ -37,6 +37,14 @@ Encoding/Decoding: O(n), where n is the length of the input data.
 Space Complexity: O(n)
 
 [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Dynamic%20Programming/huffman.cpp)
+
+-**_Discrete Cosine Transform_**
+
+Time Complexity: O(n log n) per block, where n is the number of pixels in a block.O(n) for Quantization and Encoding, where n is the number of DCT coefficients.
+
+Space Complexity: O(n)
+
+[code](https://github.com/PAI-SHREYA/DSA/blob/main/Software%20Principles/dct.cpp)
 
 
 
