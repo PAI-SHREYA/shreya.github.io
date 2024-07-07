@@ -6,7 +6,7 @@ alt: Keep Exploring
 
 caption:
   title: Search Optimization
-  thumbnail: assets/img/portfolio/search.png
+  thumbnail: assets/img/portfolio/search_cover.png
 ---
 
 **Performance Analysis**
