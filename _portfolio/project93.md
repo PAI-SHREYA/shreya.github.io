@@ -68,11 +68,10 @@ Auxiliary Space: O(1)
 [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Binary_serach.cpp)
 
 -_**Trie**_
-Operation|	Time Complexity|	Auxiliary Space
----------|-----------------|-----------------
-Insertion|	O(n)|	O(n*m)
-Searching	|O(n)	|O(1)
-Deletion|	O(n)|	O(1)
+
+Time Complexity: Insertion O(n), Searching O(n) and Deletion O(n)
+
+Space Complexity Insertion O(n*m) ,Searching	O(1) and Deletion O(1)
 
 [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/Trie.cpp)
 
