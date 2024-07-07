@@ -31,11 +31,13 @@ Divide the list of titles into blocks. The number of blocks 𝑘= sqrt(n).
 n is the total number of titles.
 
 Netflix Titles:
+
 Block 1: [Stranger Things, The Crown, Money Heist]
 Block 2: [Bridgerton, Ozark, The Witcher]
 Block 3: [Narcos, House of Cards, Black Mirror, The Umbrella Academy]
 
 Square Root Decomposition is applied here to efficiently query and analyze user engagement scores for Netflix titles. By dividing the dataset into blocks and processing queries within these blocks, we can quickly identify titles with the highest engagement scores, providing insights into popular content on the platform.
+
 _**2.MO's Algorithm:**_
 MO's Algorithm sorts and processes multiple range queries on a dataset, optimizing the query handling process.
 
