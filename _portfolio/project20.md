@@ -38,7 +38,7 @@ The algorithm has quadratic time complexity, so it is not suitable for very larg
 **_3.Dynamic Time Warping:_**
 Dynamic Time Warping (DTW) is a technique used to measure similarity between two sequences that may vary in time or speed. In the context of subtitle synchronization in Netflix, DTW can be applied to align and synchronize subtitles with video content, ensuring that the displayed subtitles correspond accurately to the spoken dialogue or events in the video.Subtitle files typically contain timestamped text segments corresponding to specific points in the video timeline. However, due to variations in video frame rates, audio delays, or subtitle file errors, these timestamps may not accurately align with the actual dialogue or events in the video. DTW helps to address these synchronization issues by dynamically aligning the subtitle timestamps with the video timeline.
 
-<img src="">
+<img src="assets/img/inside/subtitle.jpeg">
 
 
 **Complexity Analysis and Codes**
