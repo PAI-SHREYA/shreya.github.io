@@ -33,9 +33,9 @@ en: &DEFAULT_EN
         <p>This portfolio aims to explore and apply advanced data structures and algorithms to various business use cases within Netflix, providing a comprehensive analysis of their implementation and impact. By delving into these technical aspects, the portfolio will illustrate how Netflix maintains its competitive edge and continues to lead the streaming industry.</p>
       </div>
 
-  objectives:
+  # objectives:
     title: "Objectives of the Portfolio"
-    section: "objectives"
+    # section: "objectives"
     text: |
       <div style="font-size: 16px; font-family: 'Arial', sans-serif; color: #343a40;">
         <ul style="list-style-type: none; padding-left: 0;">
