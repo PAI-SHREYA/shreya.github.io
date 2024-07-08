@@ -8,11 +8,14 @@ caption:
   thumbnail: assets/img/portfolio/guide-to-tagging-for-seo-61afcc0d67ae6-sej.webp
 ---
 **Challenges and Market Benefits**
+
 There is a huge content that needs to be accurately categorized and tagged, which requires sophisticated algorithms to automate the process. Ensuring the accuracy and relevance of tags is also important, as incorrect or irrelevant tags can negatively impact user experience and trust. Another challenge is the dynamic nature of content, as new titles are frequently added to the library.
 Accurate categorization and tagging improve content discoverability, leading to increased user engagement and retention. It also helps in making recommendation system better and efficient, providing personalized suggestions that align with user preferences.
 
 **Design Technique**
+
 **_1.Longest Common Subsequence (LCS)_**
+
 The LCS algorithm can be applied to content categorization by comparing the descriptions, titles and keywords of different shows and movies. By finding the longest common subsequences in the textual data,similarities between different pieces of content can be identified. This helps in grouping content into categories and assigning relevant tags.
 
 The limitation of the LCS algorithm is its computational complexity. For two sequences of length 𝑚 and 𝑛 the LCS algorithm has a **time complexity of 
@@ -25,6 +28,7 @@ Segment Trees are efficient for range queries and updates, which can be useful i
 The problem with Segment Trees is their space complexity, which is O(n). For a large number of content items, the memory overhead can become significant. Additionally, maintaining Segment Trees in a distributed system can be challenging due to the need for synchronization across different nodes.
 
 **_3.Radix Tree_**
+
 Implementing a Radix Tree for content categorization and tagging at Netflix involves creating a space-optimized data structure to efficiently manage and query a vast number of tags and categories. Each node in the Radix Tree represents a common prefix of multiple tags, collapsing paths with single children to save space. For example, consider tags like "action," "action-packed," "comedy," and "comedy-drama." In a Radix Tree, a single node might represent the common prefix "action," branching into "packed" and ending at a terminal node for "action." Similarly, "comedy" would branch into "drama" after the common prefix. When a user searches for tags, the tree is traversed from the root, following the characters of the query, quickly narrowing down to the relevant node. Inserting new tags involves traversing the tree to find the common prefix, then adding new nodes as necessary, merging where single child paths occur. This ensures that searches, insertions, and deletions are performed efficiently, with each operation requiring time proportional to the length of the tag. For instance, adding a new tag like "action-adventure" would involve identifying the "action" prefix, then creating a new branch for "adventure." By storing tags in this manner, Netflix can quickly retrieve and manage tags, enhancing the user experience by providing fast, relevant search results and recommendations, all while maintaining a memory-efficient structure.
 
 **Complexity Analysis and Codes**
