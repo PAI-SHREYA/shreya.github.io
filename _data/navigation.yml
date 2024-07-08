@@ -13,9 +13,7 @@ en: &DEFAULT_EN
   nav:
     - title: "About Netflix"
       section: services
-    - title: "Objectives"
-      section: objectives
-    - title: "Portfolio"
+    - title: "Use Cases"
       section: portfolio
     - title: "About Project"
       section: about
