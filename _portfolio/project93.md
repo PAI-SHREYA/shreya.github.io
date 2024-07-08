@@ -71,7 +71,7 @@ Auxiliary Space: O(1)
 
 Time Complexity: Insertion O(n), Searching O(n) and Deletion O(n)
 
-Space Complexity Insertion O(n*m) ,Searching	O(1) and Deletion O(1)
+Space Complexity:Insertion O(n*m) 
 
 [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/Trie.cpp)
 
