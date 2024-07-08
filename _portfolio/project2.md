@@ -44,26 +44,28 @@ _Design:_
   [Code](https://github.com/PAI-SHREYA/DSA/blob/main/kadane.cpp)
 - _**DFS**_:
   
-  Access, search, insertion, and deletion: O(log n),where n is the number of data points.
+   Time Complexity: O(V + E), where V is the number of vertices and E is the number of edges in the graph.
   
-  Space complexity: O(n)
+  Space complexity: O(V)
   
-  [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/KD_Tree.cpp)
+  [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Graph%20Traversal/dfs.c)
 
   - _**BFS**_:
   
-  Access, search, insertion, and deletion: O(log n),where n is the number of data points.
+  Time Complexity: O(V + E), where V is the number of vertices and E is the number of edges in the graph.
   
-  Space complexity: O(n)
+  Space complexity: O(V)
   
-  [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/KD_Tree.cpp)
+  [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Graph%20Traversal/bfs.c)
 - _**Union Find**_:
   
-  Access, search, insertion, and deletion: O(log n),where n is the number of data points.
+Time Complexity(Find) : O(log*(n)) 
+
+Time Complexity(union) : O(1)
+
+Auxiliary Space: O(Max_Vertex)
   
-  Space complexity: O(n)
-  
-  [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/KD_Tree.cpp)
+[Code](https://github.com/PAI-SHREYA/DSA/blob/main/Graph%20Traversal/union-find.cpp)
 
 
 
