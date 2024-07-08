@@ -8,8 +8,6 @@ caption:
   title: Adaptive Streaming
   thumbnail: assets/img/portfolio/adaptive-bitrate-streaming.png
 ---
-**Challenges and Market Benefits**
-
 **Design Technique**
 
 _**1.Segment Trees for Bandwidth Monitoring:**_
