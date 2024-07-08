@@ -15,6 +15,7 @@ Depending on the Netflix subscription plan, multiple users can stream content si
 **Design Technique**
 
 **_Skip List_**
+
 Skip Lists can perform searching and retrieval of user profiles. Each level in the Skip List provides a quicker path to traverse through the list of profiles, reducing the average time complexity of operations such as profile lookup and insertion.Skip Lists support dynamic operations such as insertion, deletion, and search with average time complexity of O(log n), where n is the number of profiles. This makes it suitable for managing a growing number of user profiles without significant performance degradation.Each user profile in Netflix can have different settings, preferences, and restrictions (e.g., parental controls). Skip Lists can accommodate these variations by allowing each profile node to store associated data, such as viewing history, preferences, and content restrictions.Skip Lists support concurrent operations, making them suitable for environments where multiple users may simultaneously access and modify their profiles. This concurrency control ensures data consistency and avoids conflicts during profile updates.
 
 _Design_
