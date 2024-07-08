@@ -37,15 +37,11 @@ _Design:_
 
 - _**Kadanes's Algorithm**_:
   
-  Construction: O(n log n) 
+  Time Complexity: O(n)
   
-  Update (Point Update): O(log n) 
+  Space Complexity: O(1)
   
-  Query (Prefix Sum): O(log n)
-  
-  Space Complexity: O(n)
-  
-  [Code](https://github.com/PAI-SHREYA/DSA/blob/main/Trees/FenwickTree.cpp)
+  [Code](https://github.com/PAI-SHREYA/DSA/blob/main/kadane.cpp)
 - _**DFS**_:
   
   Access, search, insertion, and deletion: O(log n),where n is the number of data points.
