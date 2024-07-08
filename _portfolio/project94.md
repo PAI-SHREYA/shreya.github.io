@@ -2,6 +2,9 @@
 title: Adaptive Streaming
 subtitle: Adaptive streaming, also known as adaptive bitrate streaming (ABR), is a technique used to deliver video content over the internet in a way that adjusts the quality of the video in real-time based on the user's network conditions and device capabilities. This ensures smooth playback with minimal buffering, even under fluctuating bandwidth conditions.
 
+image:assets/img/portfolio/adaptivestream1-1024x392.jpg
+
+
 caption:
   title: Adaptive Streaming
   thumbnail: assets/img/portfolio/adaptive-bitrate-streaming.png
