@@ -44,7 +44,7 @@ Time Complexity: O(E) (Worst case) for traversal, where E is the total number of
 
 Space Complexity: O(V) where V is the number of vertices
 
-[code]([https://github.com/PAI-SHREYA/DSA/blob/main/Trees/Ford-Fulkerson.cpp](https://github.com/PAI-SHREYA/DSA/blob/main/Graph%20Traversal/A*-search.cpp))
+[code](https://github.com/PAI-SHREYA/DSA/blob/main/Graph%20Traversal/A*-search.cpp)
 
 -_**Best First Search:**_
 
