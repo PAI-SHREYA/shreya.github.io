@@ -4,7 +4,7 @@ subtitle: Adaptive streaming, also known as adaptive bitrate streaming (ABR), is
 
 caption:
   title: Adaptive Streaming
-  thumbnail: assets/img/portfolio/search_cover.png
+  thumbnail: assets/img/portfolio/adaptive-bitrate-streaming.png
 ---
 **Challenges and Market Benefits**
 
