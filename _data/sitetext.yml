@@ -55,7 +55,7 @@ en: &DEFAULT_EN
   
     
   portfolio:
-    title: "Portfolio"
+    title: "Use Cases"
     text: "Please Click on each of the use cases to know more."
     section: "portfolio"
     closebutton: "Close Project"
