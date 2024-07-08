@@ -14,13 +14,15 @@ Personalized recommendations can significantly increase user engagement, leading
 
 
 **Design Technique**
+
 For a platform like Netflix, which has millions of users and content items, updating and querying user ratings is a frequent operation. A Binary Indexed Tree could be used to efficiently update user ratings and calculate cumulative ratings. However, while BIT offers O(log n) update and query efficiency, it may not be the best choice for the following reasons: -BITs are not well-suited for multi-dimensional data, which is common in Netflix’s use case where content is categorized by multiple attributes like genre, director, cast, etc. -BITs require sequential access to data, which can be a bottleneck when dealing with real-time, dynamic data that needs concurrent access. The structure of BITs makes them less efficient for range queries on multiple attributes simultaneously, which are essential for personalized recommendations.
 Instead, a more suitable data structure could  be Multidimensional Segment Trees or kd-trees, which can handle multi-dimensional data and perform efficient range queries.
 
-_**KD-Trees**_:
+_**KD-Trees**_
+
 KD-trees are a type of binary search tree specifically designed for multi-dimensional keys, making them ideal for range and nearest-neighbor queries in multi-dimensional spaces. Each node in a kd-tree represents a k-dimensional point, and each level of the tree splits the space along one of the k dimensions. In a recommendation system, kd-trees can be used to categorize and search for content based on multiple user preference dimensions. For example, when a user indicates a preference for a particular genre and rating, the kd-tree can quickly find the closest matches in the content database.
 
-_**Attributes to be considerred**_:
+_**Attributes to be considerred**_
 
 1.How long we watch a video.
 2.Viewing history.
@@ -35,6 +37,7 @@ _**Attributes to be considerred**_:
 11.The number of searches and what is searched for.
 
 **_KD-Tree Design_**
+
 Each user and content item is represented as a k-dimensional point.
 Example: A user could be represented as (watch time, ratings, viewing history vector, device type, time of day, etc.).
 KD-Tree Construction:
@@ -45,11 +48,15 @@ Content items closest to the user point are recommended.
 Similar users are identified, and their viewing preferences are used to generate additional recommendations.
 
 _**KD Tree Design**_
+
 <img src="assets/img/inside/1/kd_tree_design.png" alt="KD-Tree Design">
+
 _**System Architecture**_
+
 <img src="assets/img/inside/1/rec_sys.jpeg" alt="System Architecture" width="500">
     
 **Complexity Analysis and Codes**
+
 - _**Binary Indexed / Fenwick Tree**_:
   
   Construction: O(n log n) 
