@@ -8,7 +8,8 @@ caption:
 ---
 **Design Technique**
 
-_**1.Square Root Decomposition:**_
+_**1.Square Root Decomposition**_
+
 For optimizing search queries, particularly for range queries.Square Root Decomposition divides the data into smaller blocks to handle range queries more efficiently. This approach is beneficial when dealing with large datasets where direct query processing would be too slow.
 
 _Scenario: User Engagement Scores for Netflix Titles_
@@ -23,22 +24,27 @@ n is the total number of titles.
 Netflix Titles:
 
 Block 1: [Stranger Things, The Crown, Money Heist]
+
 Block 2: [Bridgerton, Ozark, The Witcher]
+
 Block 3: [Narcos, House of Cards, Black Mirror, The Umbrella Academy]
 
 Square Root Decomposition is applied here to efficiently query and analyze user engagement scores for Netflix titles. By dividing the dataset into blocks and processing queries within these blocks, we can quickly identify titles with the highest engagement scores, providing insights into popular content on the platform.
 
-_**2.MO's Algorithm:**_
+_**2.MO's Algorithm**_
+
 Mo's Algorithm, also known as the "Sqrt Decomposition" algorithm, is typically used to answer offline range queries efficiently. It's particularly well-suited for problems where you need to answer multiple queries on a static array.It is not suitable for this use case because the catalog of movies and shows is constantly being updated with new releases, removals, and changes in metadata.Also,Search queries may involve complex filters, personalized recommendations, and relevance scoring rather than simple range queries.
 
-_**3.Binary Search:**_
+_**3.Binary Search**_
+
 Binary search can be used for search optimization in the following scenarios:
 
 -Quickly locating a specific movie title in a sorted list of titles.
 
 -Although binary search is not inherently designed for prefix matching, it can be adapted to find the range of titles that start with a given prefix.
 
-_**4. Trie Data Structure:**_
+_**4. Trie Data Structure**_
+
 Tries, also known as prefix trees, are a efficient data structure for storing a dynamic set of strings where common prefixes are shared. They can be particularly useful for search optimization on the Netflix platform, especially for auto-completion, spell-checking and prefix-based search queries. 
 
 <img src="assets/img/inside/trie.png">
