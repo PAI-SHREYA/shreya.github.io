@@ -17,8 +17,9 @@ Distinguishing between legitimate user behavior and fraudulent activities amidst
 
 This is used to find the Minimum Spanning Tree (MST) of a graph. In the context of fraud detection, Kruskal’s algorithm can help identify clusters of suspicious activities by finding the minimum connections (or interactions) that form these clusters.Union-Find data structure is used to manage and merge sets of connected nodes, which in this case represent user accounts and their interactions.
 
-User interactions (e.g., account logins, subscription changes) can be represented as a graph where nodes are user accounts and edges represent interactions.We can group these interactions to identify connected components. Each connected component could represent a cluster of potentially suspicious activities.
 Consider a scenario where multiple accounts are interacting in an unusual pattern, such as logging in from the same IP address or making similar subscription changes within a short period.
+User interactions (e.g., account logins, subscription changes) can be represented as a graph where nodes are user accounts and edges represent interactions.We can group these interactions to identify connected components. Each connected component could represent a cluster of potentially suspicious activities.
+
 
 **_2.Subset Problem_**
 
