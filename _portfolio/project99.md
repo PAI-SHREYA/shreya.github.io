@@ -27,4 +27,6 @@ caption:
 9. Brilliant.org. [Bloom Filter](https://brilliant.org/wiki/bloom-filter/)
 
 10. Wikipedia. [Dynamic Time Warping](https://en.wikipedia.org/wiki/Dynamic_time_warping)
+    
+11. Wikipedia. [Random Walk](https://en.wikipedia.org/wiki/Random_walk)
 
